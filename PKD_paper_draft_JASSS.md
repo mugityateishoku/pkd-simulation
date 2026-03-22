@@ -46,7 +46,7 @@ The key theoretical contribution of PKD is the coupling of these three mechanism
 
 ### 1.4 Paper Structure
 
-Section 2 formalizes the model. Section 3 presents simulation results. Section 4 reports sensitivity analyses. Section 5 discusses limitations and future work. All code is available at [GitHub repository URL].
+Section 2 formalizes the model. Section 3 presents simulation results. Section 4 reports sensitivity analyses. Section 5 discusses limitations and future work. All code is openly available at https://github.com/mugityateishoku/pkd-simulation.
 
 ---
 
@@ -469,10 +469,14 @@ function update_track_records():
 
 ## Appendix B: Code Availability
 
-All simulation code (Python 3.8+, dependencies: numpy, scipy, matplotlib) is available at:  
-[GitHub URL to be inserted]
+All simulation code (Python 3.8+, dependencies: numpy, scipy, matplotlib) is openly available at:
+**https://github.com/mugityateishoku/pkd-simulation**
 
 The repository contains:
-- `simulation_pkd.py`: Main simulation and visualization code
-- `sensitivity_analysis.py`: Seven-parameter sensitivity sweep
-- `figures/`: All generated figures (reproducible from code with fixed seeds)
+- `simulation_pkd_v3.py`: Main simulation and visualization code (World, Agent, 4 governance systems, deliberation)
+- `README.md`: Comprehensive documentation with usage examples and replication instructions
+- `requirements.txt`: Python dependencies
+- `figures/`: All generated figures (pkd_v3_single_run.png, pkd_v3_ensemble.png)
+- `LICENSE`: MIT License
+
+All results are fully replicable using fixed random seeds (default seed=42). See README.md for detailed replication instructions.
