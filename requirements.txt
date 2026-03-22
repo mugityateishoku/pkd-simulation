@@ -1,0 +1,6 @@
+# PKD Simulation Dependencies
+# Python 3.8+ required
+
+numpy>=1.20.0
+matplotlib>=3.3.0
+scipy>=1.6.0
