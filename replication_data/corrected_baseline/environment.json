@@ -1,0 +1,13 @@
+{
+  "historical_snapshot_claim": false,
+  "parallel_workers": 0,
+  "python_target": {
+    "cpu": "single process; no parallel simulation workers",
+    "dependencies": "requirements-lock.txt",
+    "os": "Ubuntu 24.04 x86_64",
+    "python": "3.12.3",
+    "rng": "NumPy PCG64 via named SeedSequence streams"
+  },
+  "rng": "numpy.random.Generator with named SeedSequence children",
+  "score_source": "registered raw_prediction only"
+}

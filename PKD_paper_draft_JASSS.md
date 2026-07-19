@@ -1,3 +1,7 @@
+> **Legacy draft:** This Markdown file predates the revised DOCX and contains
+> withdrawn claims and obsolete numerical results. It is retained only as a
+> historical artifact and is not the current manuscript or replication spec.
+
 # Philosopher-King Democracy: An Agent-Based Model of Track-Record Governance Under Populist Perturbation
 
 **Aruma Harada**

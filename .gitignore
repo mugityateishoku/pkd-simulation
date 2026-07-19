@@ -25,6 +25,8 @@ venv/
 ENV/
 env/
 .venv
+.deps/
+.qa_deps/
 
 # IDEs
 .vscode/
@@ -42,11 +44,17 @@ env/
 *.csv
 *.pkl
 *.h5
+!replication_data/
+!replication_data/**/*.csv
+!replication_data/**/*.json
 
 # Temporary files
 *.tmp
 *.bak
 *.log
+reproduction_output*/
+docx_item4/
+docx_figure_edits/
 
 # OS
 Thumbs.db

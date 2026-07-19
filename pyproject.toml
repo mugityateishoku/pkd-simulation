@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkd-simulation"
+version = "3.2.1"
+description = "Specification-aligned PKD agent-based simulation"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.0,<3",
+  "scipy>=1.13,<2",
+  "matplotlib>=3.9,<4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

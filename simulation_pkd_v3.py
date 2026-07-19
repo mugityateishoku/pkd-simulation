@@ -1,4 +1,9 @@
 """
+LEGACY ARTIFACT. This script predates the specification-aligned v3.2
+reconstruction and is retained only for historical comparison. It re-observes
+agents separately for each system and scores PKD after deliberation; do not use
+it to reproduce the current manuscript or its corrected causal specification.
+
 Philosopher-King Democracy (PKD) — Agent-Based Model Simulation
 ================================================================
 A Data-Driven Deliberative Governance Architecture:

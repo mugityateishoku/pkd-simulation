@@ -1,0 +1,29 @@
+name: Reproducibility smoke test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.3"
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r requirements-lock.txt
+      - run: python -m pytest -q
+      - name: Deterministic model smoke run
+        run: >-
+          python simulation_pkd_v32.py
+          --config configs/model_smoke.json
+          --runs 1
+          --base-seed 20260301
+          --output smoke-output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smoke-output
+          path: smoke-output

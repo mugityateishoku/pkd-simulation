@@ -1,0 +1,7 @@
+artifact,path,generator,raw_inputs
+Table 1,tables/table1_baseline.csv,reproduce_all.py,raw/baseline
+Table 2,tables/table2_track_records.csv,reproduce_all.py,raw/baseline
+Table 3,tables/table3_model_docking.csv,reproduce_all.py,raw/baseline
+Table 4,tables/table4_paired_inference.csv,reproduce_all.py,raw/baseline
+Figure 1,figures/figure1_single_run.png,reproduce_all.py,raw/figure1_single_run
+Figure 2,figures/figure2_ensemble.png,reproduce_all.py,raw/baseline
