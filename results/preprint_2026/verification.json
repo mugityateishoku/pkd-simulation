@@ -1,0 +1,11 @@
+{
+  "analytic_equal_pool_expected_error": 0.087816665,
+  "analytic_equal_pool_interval_contains_expectation": true,
+  "paired_shock_identical_pre_periods": true,
+  "matched_record_post_initialization_max_error_gap": 7.216449660063518e-16,
+  "conditions": 55,
+  "condition_runs": 1650,
+  "period_system_rows": 4455000,
+  "largest_summary_recalculation_error": 7.105427357601002e-15,
+  "source_hash_matches": true
+}

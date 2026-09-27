@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pkd-simulation"
-version = "3.2.1"
-description = "Specification-aligned PKD agent-based simulation"
-requires-python = ">=3.10"
+version = "3.3.0"
+description = "PKD collective estimation experiments and preprint"
+requires-python = ">=3.12"
 dependencies = [
   "numpy>=2.0,<3",
   "scipy>=1.13,<2",

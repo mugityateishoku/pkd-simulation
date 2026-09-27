@@ -1,0 +1,3066 @@
+{
+  "DeGroot1974": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T09:25:13Z",
+      "timestamp": 1790414713824,
+      "version": "4.1.0"
+    },
+    "reference-count": 14,
+    "publisher": "Informa UK Limited",
+    "issue": "345",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1974,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1080/01621459.1974.10480137",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2012-04-05T15:40:28Z",
+      "timestamp": 1333640428000
+    },
+    "page": "118-121",
+    "source": "Crossref",
+    "is-referenced-by-count": 3123,
+    "title": [
+      "Reaching a Consensus"
+    ],
+    "prefix": "10.1080",
+    "volume": "69",
+    "author": [
+      {
+        "given": "Morris H.",
+        "family": "Degroot",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "reference": [
+      {
+        "key": "CIT0001",
+        "volume-title": "\u201cScientific Disagreement\u201d",
+        "author": "Bacharach Michael",
+        "year": "1972"
+      },
+      {
+        "key": "CIT0002",
+        "volume-title": "Studies in the Quality of Life",
+        "author": "Dalkey Norman C.",
+        "year": "1972"
+      },
+      {
+        "key": "CIT0003",
+        "volume-title": "Stochastic Processes",
+        "author": "Doob J. L.",
+        "year": "1953"
+      },
+      {
+        "key": "CIT0004",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177706369"
+      },
+      {
+        "key": "CIT0005",
+        "volume-title": "An Introduction to Probability Theory and Its Applications,",
+        "volume": "1",
+        "author": "Feller William",
+        "year": "1968",
+        "edition": "3"
+      },
+      {
+        "key": "CIT0006",
+        "volume-title": "A First Course in Stochastic Processes",
+        "author": "Karlin Samuel",
+        "year": "1966"
+      },
+      {
+        "key": "CIT0007",
+        "volume-title": "\u201cExternally Bayesian Groups\u201d",
+        "author": "Madansky Albert",
+        "year": "1964"
+      },
+      {
+        "key": "CIT0008",
+        "volume-title": "\u201cBayesian Expert Resolution\u201d",
+        "author": "Morris Peter Alan",
+        "year": "1971"
+      },
+      {
+        "key": "CIT0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1214/aoms/1177699074",
+        "volume": "38",
+        "author": "Norvig Torsten",
+        "year": "1967",
+        "journal-title": "Annals of Mathematical Statistics"
+      },
+      {
+        "key": "CIT0010",
+        "volume-title": "Stochastic Processes",
+        "author": "Parzen Emanuel",
+        "year": "1962"
+      },
+      {
+        "key": "CIT0011",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1971.10482346"
+      },
+      {
+        "key": "CIT0012",
+        "volume-title": "Assessment and Evaluation of Subjective Probability Distributions",
+        "author": "von Holstein Carl-Axel S. Sta\u00ebl",
+        "year": "1970"
+      },
+      {
+        "key": "CIT0013",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177704873"
+      },
+      {
+        "key": "CIT0014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/mnsc.15.2.B61"
+      }
+    ],
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1080/01621459.1974.10480137",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          20
+        ]
+      ],
+      "date-time": "2017-06-20T12:57:50Z",
+      "timestamp": 1497963470000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.tandfonline.com/doi/abs/10.1080/01621459.1974.10480137"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1974,
+          3
+        ]
+      ]
+    },
+    "references-count": 14,
+    "aliases": [
+      "10.2307/2285509"
+    ],
+    "journal-issue": {
+      "issue": "345",
+      "published-print": {
+        "date-parts": [
+          [
+            1974,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/01621459.1974.10480137"
+    ],
+    "URL": "https://doi.org/10.1080/01621459.1974.10480137",
+    "relation": {},
+    "ISSN": [
+      "0162-1459",
+      "1537-274X"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-1459",
+        "type": "print"
+      },
+      {
+        "value": "1537-274X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1974,
+          3
+        ]
+      ]
+    }
+  },
+  "Flanigan2021": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2026-09-12T05:35:39Z",
+      "timestamp": 1789191339426,
+      "version": "build-2803163510"
+    },
+    "reference-count": 46,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7873",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2021-08-04T00:00:00Z",
+          "timestamp": 1628035200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2021-08-04T00:00:00Z",
+          "timestamp": 1628035200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Globally, there has been a recent surge in \u2018citizens\u2019 assemblies\u2019<jats:sup>1</jats:sup>, which are a form of civic participation in which a panel of randomly selected constituents contributes to questions of policy. The random process for selecting this panel should satisfy two properties. First, it must produce a panel that is representative of the population. Second, in the spirit of democratic equality, individuals would ideally be selected to serve on this panel with equal probability<jats:sup>2,3</jats:sup>. However, in practice these desiderata are in tension owing to differential participation rates across subpopulations<jats:sup>4,5</jats:sup>. Here we apply ideas from fair division to develop selection algorithms that satisfy the two desiderata simultaneously to the greatest possible extent: our selection algorithms choose representative panels while selecting individuals with probabilities as close to equal as mathematically possible, for many metrics of \u2018closeness to equality\u2019. Our implementation of one such algorithm has already been used to select more than 40\u00a0citizens\u2019 assemblies around the world. As we demonstrate using data from ten citizens\u2019 assemblies, adopting our algorithm over a benchmark representing the previous state of the art leads to substantially fairer selection probabilities. By contributing a fairer, more principled and deployable algorithm, our work puts the practice of sortition on firmer foundations. Moreover, our work establishes citizens\u2019 assemblies as a domain in which insights from the field of fair division can lead to high-impact applications.</jats:p>",
+    "DOI": "10.1038/s41586-021-03788-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2021-08-04T16:06:04Z",
+      "timestamp": 1628093164000
+    },
+    "page": "548-552",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 85,
+    "title": [
+      "Fair algorithms for selecting citizens\u2019 assemblies"
+    ],
+    "prefix": "10.1038",
+    "volume": "596",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7805-1989",
+        "authenticated-orcid": false,
+        "given": "Bailey",
+        "family": "Flanigan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8101-6818",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "G\u00f6lz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anupam",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8958-0440",
+        "authenticated-orcid": false,
+        "given": "Brett",
+        "family": "Hennig",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8774-5827",
+        "authenticated-orcid": false,
+        "given": "Ariel D.",
+        "family": "Procaccia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "3788_CR1",
+        "unstructured": "OECD. Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave (OECD Publishing, 2020)."
+      },
+      {
+        "key": "3788_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carson, L. & Martin, B. Random Selection in Politics (Praeger, 1999).",
+        "DOI": "10.5040/9798216004707"
+      },
+      {
+        "key": "3788_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "349",
+        "DOI": "10.1177/1474885116665600",
+        "volume": "18",
+        "author": "D Leydet",
+        "year": "2019",
+        "unstructured": "Leydet, D. Which conception of political equality do deliberative mini-publics promote? Eur. J. Polit. Theory 18, 349\u2013370 (2019).",
+        "journal-title": "Eur. J. Polit. Theory"
+      },
+      {
+        "key": "3788_CR4",
+        "unstructured": "MASS LBP. How to run a civic lottery: designing fair selection mechanisms for deliberative public processes. https://www.masslbp.com/s/civiclotteryguide.pdf (2017)."
+      },
+      {
+        "key": "3788_CR5",
+        "unstructured": "newDemocracy Foundation and United Nations Democracy Fund. Enabling National Initiatives to Take Democracy Beyond Elections (newDemocracy Foundation, 2018)."
+      },
+      {
+        "key": "3788_CR6",
+        "unstructured": "Dahl, R. A. After the Revolution? Authority in a Good Society (Yale Univ. Press, 1970)."
+      },
+      {
+        "key": "3788_CR7",
+        "unstructured": "Delannoi, G. & Dowlen, O. Sortition: Theory and Practice (Imprint Academic, 2010)."
+      },
+      {
+        "key": "3788_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "284",
+        "DOI": "10.1057/palgrave.ap.5500121",
+        "volume": "40",
+        "author": "JS Fishkin",
+        "year": "2005",
+        "unstructured": "Fishkin, J. S. & Luskin, R. C. Experimenting with a democratic ideal: deliberative polling and public opinion. Acta Polit. 40, 284\u2013298 (2005).",
+        "journal-title": "Acta Polit."
+      },
+      {
+        "key": "3788_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.3167/dt.2018.050209",
+        "volume": "5",
+        "author": "S McKay",
+        "year": "2018",
+        "unstructured": "McKay, S. & MacLeod, P. MASS LBP and long-form deliberation in Canada. Democr. Theory 5, 108\u2013113 (2018).",
+        "journal-title": "Democr. Theory"
+      },
+      {
+        "key": "3788_CR10",
+        "unstructured": "Participedia https://participedia.net/search?selectedCategory=case&recruitment_method=random,stratified (2021)."
+      },
+      {
+        "key": "3788_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, G. & Set\u00e4l\u00e4, M. in The Oxford Handbook of Deliberative Democracy (eds B\u00e4chtiger, A. et al.) 299\u2013314 (Oxford Univ. Press, 2018).",
+        "DOI": "10.1093/oxfordhb/9780198747369.013.27"
+      },
+      {
+        "key": "3788_CR12",
+        "unstructured": "Democracy R&D. About the network. https://democracyrd.org/about/ (2019)."
+      },
+      {
+        "key": "3788_CR13",
+        "unstructured": "Niessen, C. & Reuchamps, M. Designing a Permanent Deliberative Citizens\u2019 Assembly. Centre for Deliberative Democracy and Global Governance Working Paper Series 6 (2019)."
+      },
+      {
+        "key": "3788_CR14",
+        "unstructured": "Reuchamps, M. Belgium\u2019s experiment in permanent forms of deliberative democracy. Constitution Net\u00a0http://constitutionnet.org/news/belgiums-experiment-permanent-forms-deliberative-democracy (17 January 2020)."
+      },
+      {
+        "key": "3788_CR15",
+        "unstructured": "The Irish Citizen\u2019s Assembly Project. Irish citizens\u2019 assembly (2019\u20132020). http://www.citizenassembly.ie/work/ (2019)."
+      },
+      {
+        "key": "3788_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fishkin, J. S. Democracy When the People Are Thinking: Revitalizing Our Politics Through Public Deliberation (Oxford Univ. Press, 2018).",
+        "DOI": "10.1093/oso/9780198820291.001.0001"
+      },
+      {
+        "key": "3788_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "639",
+        "DOI": "10.1177/0032321718794358",
+        "volume": "67",
+        "author": "V Jacquet",
+        "year": "2019",
+        "unstructured": "Jacquet, V. The role and the future of deliberative mini-publics: a citizen perspective. Polit. Stud. 67, 639\u2013657 (2019).",
+        "journal-title": "Polit. Stud."
+      },
+      {
+        "key": "3788_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "566",
+        "DOI": "10.1017/S0003055410000298",
+        "volume": "104",
+        "author": "MA Neblo",
+        "year": "2010",
+        "unstructured": "Neblo, M. A., Esterling, K. M., Kennedy, R. P., Lazer, D. M. & Sokhey, A. E. Who wants to deliberate\u2014and why? Am. Polit. Sci. Rev. 104, 566\u2013583 (2010).",
+        "journal-title": "Am. Polit. Sci. Rev."
+      },
+      {
+        "key": "3788_CR19",
+        "unstructured": "Of by for*. Final report of the citizens\u2019 panel on COVID-19. https://joinofbyfor.org/wp-content/uploads/2020/11/Final-Report-of-the-Citizens-Panel-on-COVID-19.pdf (2020)."
+      },
+      {
+        "key": "3788_CR20",
+        "unstructured": "Of by for*. Democratic lottery \u2013 the citizens\u2019 panel on COVID-19.\u00a0Vimeo https://vimeo.com/458304880#t=17m59s (2020)."
+      },
+      {
+        "key": "3788_CR21",
+        "unstructured": "Parker, J. M. Randomness and Legitimacy in Selecting Democratic Representatives (Univ. of Texas at Austin, 2011)."
+      },
+      {
+        "key": "3788_CR22",
+        "unstructured": "Fishkin, J. S. When the People Speak: Deliberative Democracy and Public Consultation (Oxford Univ. Press, 2009)."
+      },
+      {
+        "key": "3788_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "339",
+        "DOI": "10.1080/13698230.2016.1144858",
+        "volume": "19",
+        "author": "P Stone",
+        "year": "2016",
+        "unstructured": "Stone, P. Sortition, voting, and democratic equality. Crit. Rev. Int. Soc. Polit. Philos. 19, 339\u2013356 (2016).",
+        "journal-title": "Crit. Rev. Int. Soc. Polit. Philos."
+      },
+      {
+        "key": "3788_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stone, P. The Luck of the Draw: The Role of Lotteries in Decision Making (Oxford Univ. Press 2011).",
+        "DOI": "10.1093/acprof:oso/9780199756100.001.0001"
+      },
+      {
+        "key": "3788_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1177/053901889028001002",
+        "volume": "28",
+        "author": "F Engelstad",
+        "year": "1989",
+        "unstructured": "Engelstad, F. The assignment of political office by lot. Soc. Sci. Inf. 28, 23\u201350 (1989).",
+        "journal-title": "Soc. Sci. Inf."
+      },
+      {
+        "key": "3788_CR26",
+        "unstructured": "Allianz Vielf\u00e4ltige Demokratie & Bertelsmann Foundation. Citizens\u2019 participation using sortition. http://aei.pitt.edu/102678/1/181102_Citizens__Participation_Using_Sortition_mb_-_Copy.pdf (2018)."
+      },
+      {
+        "key": "3788_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Benad\u00e8, G., G\u00f6lz, P. & Procaccia, A. D. No stratification without representation. In Proc. ACM Conf. Econ. Comp. (eds Karlin, A. et al.) 281\u2013314 (Association for Computing Machinery, 2019).",
+        "DOI": "10.1145/3328526.3329578"
+      },
+      {
+        "key": "3788_CR28",
+        "unstructured": "Flanigan, B., G\u00f6lz, P., Gupta, A. & Procaccia, A. D. Neutralizing self-selection bias in sampling for sortition. In Adv. in Neural Inform. Process. Syst. 33 (eds Larochelle, H. et al.) 6528\u20136539 (Curran Associates, 2020)."
+      },
+      {
+        "key": "3788_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brams, S. J. & Taylor, A. D. Fair Division: From Cake-Cutting to Dispute Resolution (Cambridge Univ. Press, 1996).",
+        "DOI": "10.1017/CBO9780511598975"
+      },
+      {
+        "key": "3788_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moulin, H. Fair Division and Collective Welfare (MIT Press, 2004).",
+        "DOI": "10.7551/mitpress/2954.001.0001"
+      },
+      {
+        "key": "3788_CR31",
+        "unstructured": "Fair Outcomes. Fair Proposals. https://www.fairproposals.com/ (accessed 2021)."
+      },
+      {
+        "key": "3788_CR32",
+        "unstructured": "Sun, A. Divide your rent fairly. New York Times\u00a0https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html (28 April 2014)."
+      },
+      {
+        "key": "3788_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1145/2728732.2728738",
+        "volume": "13",
+        "author": "J Goldman",
+        "year": "2015",
+        "unstructured": "Goldman, J. & Procaccia, A. D. Spliddit: unleashing fair division algorithms. ACM SIGecom Exchanges 13, 41\u201346 (2015).",
+        "journal-title": "ACM SIGecom Exchanges"
+      },
+      {
+        "key": "3788_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1287/opre.2016.1544",
+        "volume": "65",
+        "author": "E Budish",
+        "year": "2017",
+        "unstructured": "Budish, E., Cachon, G. P., Kessler, J. B. & Othman, A. Course match: a large-scale implementation of approximate competitive equilibrium from equal incomes for combinatorial allocation. Oper. Res. 65, 314\u2013336 (2017).",
+        "journal-title": "Oper. Res."
+      },
+      {
+        "key": "3788_CR35",
+        "unstructured": "Endriss, U. Lecture notes on fair division. Preprint at https://arxiv.org/abs/1806.04234 (2010)."
+      },
+      {
+        "key": "3788_CR36",
+        "unstructured": "Lesca, J. & Perny, P. LP solvable models for multiagent fair allocation problems. In Proc. 19th European Conf. Artificial Intelligence (eds Coelho, H. et al.) 393\u2013398 (IOS, 2010)."
+      },
+      {
+        "key": "3788_CR37",
+        "unstructured": "Endriss, U. Reduction of economic inequality in combinatorial domains. In Proc. 2013 Internatl Conf. Autonom. Agents Multiagent Syst. (eds Gini, M. L. et al.) 175\u2013182 (International Foundation for Autonomous Agents and Multiagent Systems, 2013)."
+      },
+      {
+        "key": "3788_CR38",
+        "unstructured": "Schneckenburger, S., Dorn, B. & Endriss, U. The Atkinson inequality index in multiagent resource allocation. In Proc. 16th Internatl Conf. Autonom. Agents Multiagent Syst. (eds Larson, K. et al.) 272\u2013280 (International Foundation for Autonomous Agents and Multiagent Systems, 2017)."
+      },
+      {
+        "key": "3788_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3274641",
+        "volume": "6",
+        "author": "D Kurokawa",
+        "year": "2018",
+        "unstructured": "Kurokawa, D., Procaccia, A. D. & Shah, N. Leximin allocations in the real world. ACM TEAC 6, 1\u201324 (2018).",
+        "journal-title": "ACM TEAC"
+      },
+      {
+        "key": "3788_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "151",
+        "DOI": "10.1016/j.jet.2005.04.004",
+        "volume": "125",
+        "author": "AE Roth",
+        "year": "2005",
+        "unstructured": "Roth, A. E., S\u00f6nmez, T. & \u00dcnver, M. U. Pairwise kidney exchange. J. Econ. Theory 125, 151\u2013188 (2005).",
+        "journal-title": "J. Econ. Theory"
+      },
+      {
+        "key": "3788_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "257",
+        "DOI": "10.1111/j.1468-0262.2004.00483.x",
+        "volume": "72",
+        "author": "A Bogomolnaia",
+        "year": "2004",
+        "unstructured": "Bogomolnaia, A. & Moulin, H. Random matching under dichotomous preferences. Econometrica 72, 257\u2013279 (2004).",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "3788_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, G. Democratic Innovations: Designing Institutions for Citizen Participation (Cambridge Univ. Press, 2009).",
+        "DOI": "10.1017/CBO9780511609848"
+      },
+      {
+        "key": "3788_CR43",
+        "unstructured": "Hennig, B. & G\u00f6lz, P. StratifySelect. https://github.com/sortitionfoundation/stratification-app (2020)."
+      },
+      {
+        "key": "3788_CR44",
+        "unstructured": "Flanigan, B., G\u00f6lz, P., Gupta, A., Procaccia, A. D. & Rusak, G. Panelot. http://www.panelot.org/ (2020)."
+      },
+      {
+        "key": "3788_CR45",
+        "unstructured": "The World Bank Group. GINI index (World Bank estimate). https://data.worldbank.org/indicator/SI.POV.GINI (2021)."
+      },
+      {
+        "key": "3788_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.1214/ss/1009213286",
+        "volume": "16",
+        "author": "LD Brown",
+        "year": "2001",
+        "unstructured": "Brown, L. D., Cai, T. T. & DasGupta, A. Interval estimation for a binomial proportion. Stat. Sci. 16, 101\u2013117 (2001).",
+        "journal-title": "Stat. Sci."
+      }
+    ],
+    "container-title": [
+      "Nature"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03788-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03788-6",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03788-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2024-09-05T21:01:59Z",
+      "timestamp": 1725570119000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41586-021-03788-6"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "7873",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            26
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "3788"
+    ],
+    "URL": "https://doi.org/10.1038/s41586-021-03788-6",
+    "relation": {},
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issn-type": [
+      {
+        "value": "0028-0836",
+        "type": "print"
+      },
+      {
+        "value": "1476-4687",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "15 January 2021",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 June 2021",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "4 August 2021",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "B.H. is the founder and co-director of the Sortition Foundation.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  },
+  "HongPage2004": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2026-09-27T01:27:54Z",
+      "timestamp": 1790472474417,
+      "version": "4.1.0"
+    },
+    "reference-count": 11,
+    "publisher": "National Academy of Sciences",
+    "issue": "46",
+    "content-domain": {
+      "domain": [
+        "www.pnas.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Proc. Natl. Acad. Sci. U.S.A."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:p>We introduce a general framework for modeling functionally diverse problem-solving agents. In this framework, problem-solving agents possess representations of problems and algorithms that they use to locate solutions. We use this framework to establish a result relevant to group composition. We find that when selecting a problem-solving team from a diverse population of intelligent agents, a team of randomly selected agents outperforms a team comprised of the best-performing agents. This result relies on the intuition that, as the initial pool of problem solvers becomes large, the best-performing agents necessarily become similar in the space of problem solvers. Their relatively greater ability is more than offset by their lack of problem-solving diversity.</jats:p>",
+    "DOI": "10.1073/pnas.0403723101",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          8
+        ]
+      ],
+      "date-time": "2004-11-08T20:25:16Z",
+      "timestamp": 1099945516000
+    },
+    "page": "16385-16389",
+    "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+    "source": "Crossref",
+    "is-referenced-by-count": 1476,
+    "title": [
+      "Groups of diverse problem solvers can outperform groups of high-ability problem solvers"
+    ],
+    "prefix": "10.1073",
+    "volume": "101",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Hong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Michigan Business School and Complex Systems, University of Michigan, Ann Arbor, MI 48109-1234; and Department of Finance, Loyola University, Chicago, IL 60611"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott E.",
+        "family": "Page",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Michigan Business School and Complex Systems, University of Michigan, Ann Arbor, MI 48109-1234; and Department of Finance, Loyola University, Chicago, IL 60611"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "341",
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_1_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-2789(90)90065-W"
+      },
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.254.5035.1181"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3094807"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "unstructured": "Nisbett R. & Ross L. (1980) Human Inference: Strategies and Shortcomings of Social Judgment (Prentice-Hall Englewood Cliffs NJ)."
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "unstructured": "Robbins S. (1994) Organizational Behavior (Prentice-Hall Saddle River NJ)."
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "unstructured": "Thomas D. A. & Ely R. J. (1996) Harvard Bus. Rev. September-October 1996 no. 96510."
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "unstructured": "Newell A. & Simon H. (1972) Human Problem Solving (Prentice-Hall Englewood Cliffs NJ)."
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jeth.2000.2709"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/136215"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruderman M. Hughes-James M. & Jackson S. eds. (1996) Selected Research on Work Team Diversity (Am. Psychol. Assoc. Washington DC).",
+        "DOI": "10.1037/10507-000"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.2307/256593",
+        "volume": "36",
+        "year": "1993",
+        "unstructured": "Watson, W., Kumar, K. & Michaelsen, L. (1993) Acad. Manage. J. 36, 590-602.",
+        "journal-title": "Acad. Manage. J."
+      }
+    ],
+    "container-title": [
+      "Proceedings of the National Academy of Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pnas.org/doi/pdf/10.1073/pnas.0403723101",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2023-04-29T22:15:18Z",
+      "timestamp": 1682806518000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pnas.org/doi/full/10.1073/pnas.0403723101"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          8
+        ]
+      ]
+    },
+    "references-count": 11,
+    "journal-issue": {
+      "issue": "46",
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            11,
+            16
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1073/pnas.0403723101"
+    ],
+    "URL": "https://doi.org/10.1073/pnas.0403723101",
+    "relation": {},
+    "ISSN": [
+      "0027-8424",
+      "1091-6490"
+    ],
+    "issn-type": [
+      {
+        "value": "0027-8424",
+        "type": "print"
+      },
+      {
+        "value": "1091-6490",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2004-05-25",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2004-11-08",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "Mellers2014": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T15:05:39Z",
+      "timestamp": 1790348739070,
+      "version": "4.1.0"
+    },
+    "reference-count": 40,
+    "publisher": "SAGE Publications",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2014-03-21T00:00:00Z",
+          "timestamp": 1395360000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Psychol Sci"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Five university-based research groups competed to recruit forecasters, elicit their predictions, and aggregate those predictions to assign the most accurate probabilities to events in a 2-year geopolitical forecasting tournament. Our group tested and found support for three psychological drivers of accuracy: training, teaming, and tracking. Probability training corrected cognitive biases, encouraged forecasters to use reference classes, and provided forecasters with heuristics, such as averaging when multiple estimates were available. Teaming allowed forecasters to share information and discuss the rationales behind their beliefs. Tracking placed the highest performers (top 2% from Year 1) in elite teams that worked together. Results showed that probability training, team collaboration, and tracking improved both calibration and resolution. Forecasting is often viewed as a statistical problem, but forecasts can be improved with behavioral interventions. Training, teaming, and tracking are psychological interventions that dramatically increased the accuracy of forecasts. Statistical algorithms (reported elsewhere) improved the accuracy of the aggregation. Putting both statistics and psychology to work produced the best forecasts 2 years in a row.</jats:p>",
+    "DOI": "10.1177/0956797614524255",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2014-03-22T01:58:46Z",
+      "timestamp": 1395453526000
+    },
+    "page": "1106-1115",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 242,
+    "title": [
+      "Psychological Strategies for Winning a Geopolitical Forecasting Tournament"
+    ],
+    "prefix": "10.1177",
+    "volume": "25",
+    "author": [
+      {
+        "given": "Barbara",
+        "family": "Mellers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lyle",
+        "family": "Ungar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Sciences, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Baron",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaime",
+        "family": "Ramos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, Rice University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Burcu",
+        "family": "Gurcay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katrina",
+        "family": "Fincher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sydney E.",
+        "family": "Scott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Don",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Haas School of Business, University of California, Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pavel",
+        "family": "Atanasov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samuel A.",
+        "family": "Swift",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Haas School of Business, University of California, Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Terry",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Haas School of Business, University of California, Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Stone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip E.",
+        "family": "Tetlock",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1076-898X.6.2.130"
+      },
+      {
+        "key": "bibr2-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-2909.110.3.486"
+      },
+      {
+        "key": "bibr3-0956797614524255",
+        "author": "Baron J.",
+        "journal-title": "Decision Analysis"
+      },
+      {
+        "key": "bibr4-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0169-2070(92)90066-I"
+      },
+      {
+        "key": "bibr5-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0272-7757(99)00022-9"
+      },
+      {
+        "key": "bibr6-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/261849"
+      },
+      {
+        "key": "bibr7-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2"
+      },
+      {
+        "key": "bibr8-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-444-53707-2.00003-7"
+      },
+      {
+        "key": "bibr9-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/obhd.1998.2758"
+      },
+      {
+        "key": "bibr10-0956797614524255",
+        "volume-title": "Intelligence analysis: Behavioral and social scientific foundations",
+        "author": "Fischhoff B.",
+        "year": "2011"
+      },
+      {
+        "key": "bibr11-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0096-1523.4.2.330"
+      },
+      {
+        "key": "bibr12-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0010-0285(86)90001-0"
+      },
+      {
+        "key": "bibr13-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.79.4.580"
+      },
+      {
+        "key": "bibr14-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9280.2009.02271.x"
+      },
+      {
+        "key": "bibr15-0956797614524255",
+        "unstructured": "Internet Movie Script Database. (2011). Zero dark thirty. Retrieved from http://www.imsdb.com/scripts/Zero-Dark-Thirty.html"
+      },
+      {
+        "key": "bibr16-0956797614524255",
+        "volume-title": "Group-think",
+        "author": "Janis I.",
+        "year": "1982"
+      },
+      {
+        "key": "bibr17-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/obhd.2000.2949"
+      },
+      {
+        "key": "bibr18-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.93.2.136"
+      },
+      {
+        "key": "bibr19-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0749-5978(87)90047-1"
+      },
+      {
+        "key": "bibr20-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.103.4.687"
+      },
+      {
+        "key": "bibr21-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.psych.55.090902.142009"
+      },
+      {
+        "key": "bibr22-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0278-7393.6.2.107"
+      },
+      {
+        "key": "bibr23-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470752937.ch16"
+      },
+      {
+        "key": "bibr24-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.37.6.822"
+      },
+      {
+        "key": "bibr25-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ps.41.020190.003101"
+      },
+      {
+        "key": "bibr26-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0030-5073(80)90052-5"
+      },
+      {
+        "key": "bibr27-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/smj.962"
+      },
+      {
+        "key": "bibr28-0956797614524255",
+        "volume-title": "Groups: Interaction and performance",
+        "author": "McGrath J.",
+        "year": "1984"
+      },
+      {
+        "key": "bibr29-0956797614524255",
+        "unstructured": "Mellers B. A., Stone E., Metz S. E., Ungar L., Tetlock P. (2013). The psychology of intelligence analysis: Drivers of prediction accuracy in world politics. Manuscript submitted for publication."
+      },
+      {
+        "key": "bibr30-0956797614524255",
+        "first-page": "489",
+        "volume": "79",
+        "author": "Murphy A. H.",
+        "year": "1984",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "bibr31-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1987)115<1330:AGFFFV>2.0.CO;2"
+      },
+      {
+        "key": "bibr32-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/0470033312"
+      },
+      {
+        "key": "bibr33-0956797614524255",
+        "volume-title": "The difference: How the power of diversity creates better groups, firms, schools, and societies",
+        "author": "Page S.",
+        "year": "2007"
+      },
+      {
+        "key": "bibr34-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijforecast.2013.09.009"
+      },
+      {
+        "key": "bibr35-0956797614524255",
+        "author": "Satop\u00e4\u00e4 V. A.",
+        "journal-title": "Annals of Applied Statistics"
+      },
+      {
+        "key": "bibr36-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0015145"
+      },
+      {
+        "key": "bibr37-0956797614524255",
+        "volume-title": "Handbook of judgment and decision making",
+        "author": "Soll J. B."
+      },
+      {
+        "key": "bibr38-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.48.6.1467"
+      },
+      {
+        "key": "bibr39-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780195189285.001.0001"
+      },
+      {
+        "key": "bibr40-0956797614524255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0024285"
+      }
+    ],
+    "container-title": [
+      "Psychological Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0956797614524255",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0956797614524255",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0956797614524255",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T21:24:19Z",
+      "timestamp": 1777670659000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/0956797614524255"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          21
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/0956797614524255"
+    ],
+    "URL": "https://doi.org/10.1177/0956797614524255",
+    "relation": {},
+    "ISSN": [
+      "0956-7976",
+      "1467-9280"
+    ],
+    "issn-type": [
+      {
+        "value": "0956-7976",
+        "type": "print"
+      },
+      {
+        "value": "1467-9280",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          21
+        ]
+      ]
+    }
+  },
+  "Grimm2020": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T14:46:15Z",
+      "timestamp": 1790433975853,
+      "version": "4.1.0"
+    },
+    "reference-count": 0,
+    "publisher": "Journal of Artificial Societies and Social Simulation",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JASSS"
+    ],
+    "DOI": "10.18564/jasss.4259",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2020-04-01T12:27:02Z",
+      "timestamp": 1585744022000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 782,
+    "title": [
+      "The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism"
+    ],
+    "prefix": "10.18564",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Volker",
+        "family": "Grimm",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven F.",
+        "family": "Railsback",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian E.",
+        "family": "Vincenot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uta",
+        "family": "Berger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cara",
+        "family": "Gallagher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald L.",
+        "family": "DeAngelis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruce",
+        "family": "Edmonds",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaqi",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jarl",
+        "family": "Giske",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J\u00fcrgen",
+        "family": "Groeneveld",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alice S.A.",
+        "family": "Johnston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Milles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Nabe-Nielsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Gareth",
+        "family": "Polhill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Viktoriia",
+        "family": "Radchuk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marie-Sophie",
+        "family": "Rohw\u00e4der",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard A.",
+        "family": "Stillman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jan C.",
+        "family": "Thiele",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Ayll\u00f3n",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "7830",
+    "published-online": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Artificial Societies and Social Simulation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2020-04-01T12:27:04Z",
+      "timestamp": 1585744024000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://jasss.soc.surrey.ac.uk/23/2/7.html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.18564/jasss.4259",
+    "relation": {},
+    "ISSN": [
+      "1460-7425"
+    ],
+    "issn-type": [
+      {
+        "value": "1460-7425",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "article-number": "7"
+  },
+  "Edmonds2019": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T20:45:35Z",
+      "timestamp": 1790369135352,
+      "version": "4.1.0"
+    },
+    "reference-count": 0,
+    "publisher": "Journal of Artificial Societies and Social Simulation",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JASSS"
+    ],
+    "DOI": "10.18564/jasss.3993",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2019-06-30T22:37:47Z",
+      "timestamp": 1561934267000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 160,
+    "title": [
+      "Different Modelling Purposes"
+    ],
+    "prefix": "10.18564",
+    "volume": "22",
+    "author": [
+      {
+        "given": "Bruce",
+        "family": "Edmonds",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christophe",
+        "family": "Le Page",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mike",
+        "family": "Bithell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edmund",
+        "family": "Chattoe-Brown",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Grimm",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruth",
+        "family": "Meyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cristina",
+        "family": "Monta\u00f1ola-Sales",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul",
+        "family": "Ormerod",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hilton",
+        "family": "Root",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Flaminio",
+        "family": "Squazzoni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "7830",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Artificial Societies and Social Simulation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2019-06-30T22:37:47Z",
+      "timestamp": 1561934267000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://jasss.soc.surrey.ac.uk/22/3/6.html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.18564/jasss.3993",
+    "relation": {},
+    "ISSN": [
+      "1460-7425"
+    ],
+    "issn-type": [
+      {
+        "value": "1460-7425",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "article-number": "6"
+  },
+  "GolubJackson2010": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T15:21:00Z",
+      "timestamp": 1790436060356,
+      "version": "4.1.0"
+    },
+    "reference-count": 27,
+    "publisher": "American Economic Association",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "American Economic Journal: Microeconomics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p> We study learning in a setting where agents receive independent noisy signals about the true value of a variable and then communicate in a network. They na\u00efvely update beliefs by repeatedly taking weighted averages of neighbors' opinions. We show that all opinions in a large society converge to the truth if and only if the influence of the most influential agent vanishes as the society grows. We also identify obstructions to this, including prominent groups, and provide structural conditions on the network ensuring efficient learning. Whether agents converge to the truth is unrelated to how quickly consensus is approached. (JEL D83, D85, Z13) </jats:p>",
+    "DOI": "10.1257/mic.2.1.112",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2010-02-02T17:57:39Z",
+      "timestamp": 1265133459000
+    },
+    "page": "112-149",
+    "source": "Crossref",
+    "is-referenced-by-count": 612,
+    "title": [
+      "Na\u00efve Learning in Social Networks and the Wisdom of Crowds"
+    ],
+    "prefix": "10.1257",
+    "volume": "2",
+    "author": [
+      {
+        "given": "Benjamin",
+        "family": "Golub",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Graduate School of Business, Stanford University, Stanford, CA 94305-5015."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew O",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Stanford University, Stanford, CA 94305-6072 and the Santa Fe Institute."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "11",
+    "reference": [
+      {
+        "key": "p_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-937X.00059"
+      },
+      {
+        "key": "p_3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/PL00004094"
+      },
+      {
+        "key": "p_4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1468-0262.2006.00709.x"
+      },
+      {
+        "key": "p_5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2118364"
+      },
+      {
+        "key": "p_6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0899-8256(03)00048-4"
+      },
+      {
+        "key": "p_8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/261849"
+      },
+      {
+        "key": "p_9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/228631"
+      },
+      {
+        "key": "p_10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0378-8733(01)00038-7"
+      },
+      {
+        "key": "p_12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1257/0002828041464461"
+      },
+      {
+        "key": "p_14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jet.2008.03.001"
+      },
+      {
+        "key": "p_15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1974.10480137"
+      },
+      {
+        "key": "p_17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/00335530360698469"
+      },
+      {
+        "key": "p_18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoap/1177005980"
+      },
+      {
+        "key": "p_19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/261890"
+      },
+      {
+        "key": "p_20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2118512"
+      },
+      {
+        "key": "p_21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0046123"
+      },
+      {
+        "key": "p_22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0378-8733(96)00298-5"
+      },
+      {
+        "key": "p_23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0899-8256(03)00144-1"
+      },
+      {
+        "key": "p_26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2785610"
+      },
+      {
+        "key": "p_27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0024-3795(97)00333-9"
+      },
+      {
+        "key": "p_28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/S0273-0979-06-01126-8"
+      },
+      {
+        "key": "p_30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02289026"
+      },
+      {
+        "key": "p_34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/0400000003"
+      },
+      {
+        "key": "p_35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1468-0262.2004.00519.x"
+      },
+      {
+        "key": "p_36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2140/pjm.1961.11.1529"
+      },
+      {
+        "key": "p_38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geb.2008.09.027"
+      },
+      {
+        "key": "p_39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jeth.2000.2701"
+      }
+    ],
+    "container-title": [
+      "American Economic Journal: Microeconomics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aeaweb.org/doi/pdf/10.1257/mic.2.1.112",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2020-06-02T20:03:41Z",
+      "timestamp": 1591128221000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aeaweb.org/doi/10.1257/mic.2.1.112"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          1
+        ]
+      ]
+    },
+    "references-count": 27,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1257/mic.2.1.112"
+    ],
+    "URL": "https://doi.org/10.1257/mic.2.1.112",
+    "relation": {},
+    "ISSN": [
+      "1945-7669",
+      "1945-7685"
+    ],
+    "issn-type": [
+      {
+        "value": "1945-7669",
+        "type": "print"
+      },
+      {
+        "value": "1945-7685",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  "Lorenz2010": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2026-09-11T01:02:52Z",
+      "timestamp": 1789088572634,
+      "version": "build-2803163510"
+    },
+    "reference-count": 20,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2009,
+              11,
+              25
+            ]
+          ],
+          "date-time": "2009-11-25T00:00:00Z",
+          "timestamp": 1259107200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Complexity"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Models of continuous opinion dynamics under bounded confidence show a sharp transition between a consensus and a polarization phase at a critical global bound of confidence. In this paper, heterogeneous bounds of confidence are studied. The surprising result is that a society of agents with two different bounds of confidence (open\u2010 and closed\u2010minded agents) can find consensus even when both bounds of confidence are significantly below the critical bound of confidence of a homogeneous society. The phenomenon is shown by examples of agent\u2010based simulation and by numerical computation of the time evolution of the agents density. The result holds for the bounded confidence model of Deffuant, Weisbuch, and others (Weisbuch et al., Complexity 2002, 7, 55\u201363), as well as for the model of Hegselmann and Krause (Hegselmann and Krause, Journal of Artificial Societies and Social Simulation 2002, 5, 2). Thus, given an average level of confidence, diversity of bounds of confidence enhances the chances for consensus. The drawback of this enhancement is that opinion dynamics becomes suspect to severe drifts of clusters, where open\u2010minded agents can pull closed\u2010minded agents towards another cluster of closed\u2010minded agents. A final consensus might thus not lie in the center of the opinion interval as it happens for uniform initial opinion distributions under homogeneous bounds of confidence. It can be located at extremal locations. This is demonstrated by example, which also show that the extension to heterogeneous bounds of confidence enriches the complexity of the dynamics tremendously. \u00a9 2009 Wiley Periodicals, Inc. Complexity, 2010</jats:p>",
+    "DOI": "10.1002/cplx.20295",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          11,
+          25
+        ]
+      ],
+      "date-time": "2009-11-25T22:37:42Z",
+      "timestamp": 1259188662000
+    },
+    "page": "43-52",
+    "source": "Crossref",
+    "is-referenced-by-count": 124,
+    "title": [
+      "Heterogeneous bounds of confidence: Meet, discuss and find consensus!"
+    ],
+    "prefix": "10.1002",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Jan",
+        "family": "Lorenz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          11,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_2_2",
+        "volume-title": "Modellierung und Simulation von Dynamiken mit Vielen Interagierenden Akteuren",
+        "author": "Krause U.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_1_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b16999-21"
+      },
+      {
+        "key": "e_1_2_1_4_2",
+        "first-page": "2",
+        "article-title": "Opinion dynamics and bounded confidence, models, analysis and simulation",
+        "volume": "5",
+        "author": "Hegselmann R.",
+        "year": "2002",
+        "journal-title": "J Artif Soc Social Simul"
+      },
+      {
+        "key": "e_1_2_1_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219525900000078"
+      },
+      {
+        "key": "e_1_2_1_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cplx.10031"
+      },
+      {
+        "key": "e_1_2_1_7_2",
+        "first-page": "4",
+        "article-title": "How groups can foster consensus: The case of local cultures",
+        "volume": "12",
+        "author": "Groeber P.",
+        "year": "2009",
+        "journal-title": "J Artif Soc Social Simul"
+      },
+      {
+        "key": "e_1_2_1_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physa.2005.02.086"
+      },
+      {
+        "key": "e_1_2_1_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219525907000982"
+      },
+      {
+        "key": "e_1_2_1_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0167-2789(03)00171-4"
+      },
+      {
+        "key": "e_1_2_1_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0129183105008126"
+      },
+      {
+        "key": "e_1_2_1_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0129183107011789"
+      },
+      {
+        "key": "e_1_2_1_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cplx.20018"
+      },
+      {
+        "key": "e_1_2_1_14_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blondel V. D.;Hendrickx J. M.;Tsitsiklis J. N.On the 2r conjecture for multi\u2010agent systems In: Proceedings of the European control conference 2007 (ECC 2007): Kos Greece 2007.",
+        "DOI": "10.23919/ECC.2007.7068885"
+      },
+      {
+        "key": "e_1_2_1_15_2",
+        "unstructured": "Lorenz J.Continuous opinion dynamics: Insights through interactive Markov chains In: Proceedings of IASTED Conference Modelling Simulation and Optimization MSO Oranjestaad Aruba 2005."
+      },
+      {
+        "key": "e_1_2_1_16_2",
+        "first-page": "8",
+        "article-title": "Consensus strikes back in the Hegselmann\u2010Krause model of continuous opinion dynamics under bounded confidence",
+        "volume": "9",
+        "author": "Lorenz J.",
+        "year": "2006",
+        "journal-title": "J Artif Soc Social Simul"
+      },
+      {
+        "key": "e_1_2_1_17_2",
+        "unstructured": "Lorenz J.Repeated Averaging and Bounded Confidence\u2010Modeling Analysis and Simulation of Continuous Opinion Dynamics PhD thesis; Universit\u00e4t Bremen March2007."
+      },
+      {
+        "key": "e_1_2_1_18_2",
+        "volume-title": "Communications of the Laufen Colloquium on Science",
+        "author": "Lorenz J.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_1_19_2",
+        "first-page": "1",
+        "article-title": "How can extremism prevail? A study based on the relative agreement interaction model",
+        "volume": "5",
+        "author": "Deffuant G.",
+        "year": "2002",
+        "journal-title": "J Artif Soc Social Simul"
+      },
+      {
+        "key": "e_1_2_1_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physa.2004.06.102"
+      },
+      {
+        "key": "e_1_2_1_21_2",
+        "first-page": "8",
+        "article-title": "Comparing extremism propagation patterns in continuous opinion models",
+        "volume": "9",
+        "author": "Deffuant G.",
+        "year": "2006",
+        "journal-title": "J Artif Soc Social Simul"
+      }
+    ],
+    "container-title": [
+      "Complexity"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fcplx.20295",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cplx.20295",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2023-11-21T10:17:00Z",
+      "timestamp": 1700561820000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/cplx.20295"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          11,
+          25
+        ]
+      ]
+    },
+    "references-count": 20,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/cplx.20295"
+    ],
+    "URL": "https://doi.org/10.1002/cplx.20295",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1076-2787",
+      "1099-0526"
+    ],
+    "issn-type": [
+      {
+        "value": "1076-2787",
+        "type": "print"
+      },
+      {
+        "value": "1099-0526",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          11,
+          25
+        ]
+      ]
+    }
+  },
+  "CesaBianchiLugosi2006": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T15:22:51Z",
+      "timestamp": 1790436171699,
+      "version": "4.1.0"
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "isbn-type": [
+      {
+        "value": "9780521841085",
+        "type": "print"
+      },
+      {
+        "value": "9780511546921",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2009,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2009-12-03T00:00:00Z",
+          "timestamp": 1259798400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 1361,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          3,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This important text and reference for researchers and students in machine learning, game theory, statistics and information theory offers a comprehensive treatment of the problem of predicting individual sequences. Unlike standard statistical approaches to forecasting, prediction of individual sequences does not impose any probabilistic assumption on the data-generating mechanism. Yet, prediction algorithms can be constructed that work well for all possible sequences, in the sense that their performance is always nearly as good as the best forecasting strategy in a given reference class. The central theme is the model of prediction using expert advice, a general framework within which many related problems can be cast and discussed. Repeated game playing, adaptive data compression, sequential investment in the stock market, sequential pattern analysis, and several other problems are viewed as instances of the experts' framework and analyzed from a common nonstochastic standpoint that often reveals new and intriguing connections.</jats:p>",
+    "DOI": "10.1017/cbo9780511546921",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2009-12-24T09:40:47Z",
+      "timestamp": 1261647647000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1551,
+    "title": [
+      "Prediction, Learning, and Games"
+    ],
+    "prefix": "10.1017",
+    "author": [
+      {
+        "given": "Nicolo",
+        "family": "Cesa-Bianchi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabor",
+        "family": "Lugosi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          12,
+          3
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          10
+        ]
+      ],
+      "date-time": "2022-06-10T23:31:29Z",
+      "timestamp": 1654903889000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/9780511546921/type/book"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          3,
+          13
+        ]
+      ]
+    },
+    "ISBN": [
+      "9780521841085",
+      "9780511546921"
+    ],
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9780511546921",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          3,
+          13
+        ]
+      ]
+    }
+  }
+}
