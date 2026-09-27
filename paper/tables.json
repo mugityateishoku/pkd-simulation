@@ -1,0 +1,543 @@
+{
+  "baseline": {
+    "headers": [
+      "Mechanism",
+      "Error [95% interval]",
+      "Biased type seats",
+      "Coverage"
+    ],
+    "widths": [
+      2.1,
+      2.35,
+      1.2,
+      1.05
+    ],
+    "rows": [
+      [
+        "PKD",
+        "0.1344 [0.1316, 0.1372]",
+        "1.1%",
+        "26.0%"
+      ],
+      [
+        "Random council of 10",
+        "0.8696 [0.8557, 0.8836]",
+        "4.8%",
+        "19.4%"
+      ],
+      [
+        "Random + deliberation",
+        "0.9221 [0.9059, 0.9383]",
+        "5.3%",
+        "19.3%"
+      ],
+      [
+        "Ballot election of 5",
+        "0.6846 [0.6563, 0.7129]",
+        "11.9%",
+        "9.9%"
+      ],
+      [
+        "Appeal ranking of 5",
+        "2.2092 [2.0702, 2.3482]",
+        "72.4%",
+        "6.8%"
+      ],
+      [
+        "Random single ruler",
+        "8.3846 [7.3461, 9.4230]",
+        "4.4%",
+        "2.1%"
+      ],
+      [
+        "All 100 equal mean",
+        "0.0876 [0.0867, 0.0884]",
+        "5.0%",
+        "100.0%"
+      ],
+      [
+        "All 100 score weighted",
+        "0.0315 [0.0312, 0.0319]",
+        "5.0%",
+        "100.0%"
+      ]
+    ]
+  },
+  "parameters": {
+    "headers": [
+      "Quantity",
+      "Baseline value"
+    ],
+    "widths": [
+      3.0,
+      3.7
+    ],
+    "rows": [
+      [
+        "Population / dimensions",
+        "100 agents / 10 dimensions"
+      ],
+      [
+        "Citizen / low-noise / biased counts",
+        "80 / 15 / 5"
+      ],
+      [
+        "Citizen type counts",
+        "20 IC / 16 II / 20 UC / 24 UI"
+      ],
+      [
+        "Observation noise SD by type",
+        "0.6 / 1.3 / 0.5 / 1.5 / 0.3 / 0.8"
+      ],
+      [
+        "Specialty coordinates / noise multiplier",
+        "One or two / 0.3"
+      ],
+      [
+        "Bias norm before / after period 100",
+        "1.5 / 3.0 for biased type only"
+      ],
+      [
+        "State drift SD / redraw probability",
+        "0.02 / 0.03"
+      ],
+      [
+        "Record decay / initial records",
+        "0.9 / zero"
+      ],
+      [
+        "PKD record seats / lottery seats",
+        "5 / 5"
+      ],
+      [
+        "PKD / sortition / election / ruler cycle",
+        "6 / 6 / 12 / 48 periods"
+      ],
+      [
+        "Deliberation step size",
+        "0.3"
+      ],
+      [
+        "Indicator noise / delay / scored dimensions",
+        "0 / 0 / 10"
+      ],
+      [
+        "Election record weight / utility noise",
+        "0.25 / Gumbel scale 0.2"
+      ],
+      [
+        "Election information noise / media multiplier",
+        "0.75 / 0.5"
+      ],
+      [
+        "Runs / periods / shock time",
+        "30 / 300 / zero-based 100"
+      ],
+      [
+        "All-agent score weights",
+        "Normalized exponential of prior records"
+      ]
+    ]
+  },
+  "conditions": {
+    "headers": [
+      "ID",
+      "Condition",
+      "Changes from baseline"
+    ],
+    "widths": [
+      0.35,
+      2.15,
+      4.2
+    ],
+    "rows": [
+      [
+        "1",
+        "baseline",
+        "Baseline parameters in Table A1"
+      ],
+      [
+        "2",
+        "shock absent",
+        "shock_enabled = False"
+      ],
+      [
+        "3",
+        "no deliberation",
+        "pkd_deliberation = False"
+      ],
+      [
+        "4",
+        "record only 10",
+        "n_expert_seats = 10; n_citizen_seats = 0; pkd_deliberation = False"
+      ],
+      [
+        "5",
+        "record only 5",
+        "n_citizen_seats = 0; pkd_deliberation = False"
+      ],
+      [
+        "6",
+        "lottery only 10",
+        "n_expert_seats = 0; n_citizen_seats = 10; pkd_deliberation = False"
+      ],
+      [
+        "7",
+        "uniform lottery",
+        "lottery_sampling = uniform"
+      ],
+      [
+        "8",
+        "screened lottery",
+        "citizen_pool = citizens_only"
+      ],
+      [
+        "9",
+        "equal weights",
+        "pkd_score_weighting = False"
+      ],
+      [
+        "10",
+        "frozen after 100",
+        "freeze_scores_at = 100"
+      ],
+      [
+        "11",
+        "election weight 0",
+        "electoral_record_weight = 0.0; electoral_information_noise = 0.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "12",
+        "election weight 0.25",
+        "electoral_information_noise = 0.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "13",
+        "election weight 0.5",
+        "electoral_record_weight = 0.5; electoral_information_noise = 0.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "14",
+        "election weight 0.75",
+        "electoral_record_weight = 0.75; electoral_information_noise = 0.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "15",
+        "election weight 1",
+        "electoral_record_weight = 1.0; electoral_information_noise = 0.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "16",
+        "electoral information noise 0.25",
+        "electoral_record_weight = 0.75; electoral_information_noise = 0.25; electoral_media_amplification = 0.0"
+      ],
+      [
+        "17",
+        "electoral information noise 1",
+        "electoral_record_weight = 0.75; electoral_information_noise = 1.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "18",
+        "electoral information noise 2",
+        "electoral_record_weight = 0.75; electoral_information_noise = 2.0; electoral_media_amplification = 0.0"
+      ],
+      [
+        "19",
+        "electoral media amplification 0.25",
+        "electoral_record_weight = 0.75; electoral_information_noise = 0.0; electoral_media_amplification = 0.25"
+      ],
+      [
+        "20",
+        "electoral media amplification 1",
+        "electoral_record_weight = 0.75; electoral_information_noise = 0.0; electoral_media_amplification = 1.0"
+      ],
+      [
+        "21",
+        "electoral media amplification 2",
+        "electoral_record_weight = 0.75; electoral_information_noise = 0.0; electoral_media_amplification = 2.0"
+      ],
+      [
+        "22",
+        "matched record selection",
+        "election_cycle = 6; electoral_record_weight = 1.0; electoral_information_noise = 0.0; electoral_media_amplification = 0.0; electoral_random_utility_noise = 0.0; n_citizen_seats = 0; pkd_score_weighting = False; pkd_deliberation = False"
+      ],
+      [
+        "23",
+        "proxy noise 0.5",
+        "proxy_noise = 0.5"
+      ],
+      [
+        "24",
+        "proxy noise 1",
+        "proxy_noise = 1.0"
+      ],
+      [
+        "25",
+        "proxy noise 2",
+        "proxy_noise = 2.0"
+      ],
+      [
+        "26",
+        "feedback delay 3",
+        "feedback_delay = 3"
+      ],
+      [
+        "27",
+        "feedback delay 12",
+        "feedback_delay = 12"
+      ],
+      [
+        "28",
+        "feedback delay 24",
+        "feedback_delay = 24"
+      ],
+      [
+        "29",
+        "scored dimensions 1",
+        "scored_dimensions = 1"
+      ],
+      [
+        "30",
+        "scored dimensions 3",
+        "scored_dimensions = 3"
+      ],
+      [
+        "31",
+        "scored dimensions 5",
+        "scored_dimensions = 5"
+      ],
+      [
+        "32",
+        "expert noise 0.6",
+        "expert_noise = 0.6"
+      ],
+      [
+        "33",
+        "expert noise 0.9",
+        "expert_noise = 0.9"
+      ],
+      [
+        "34",
+        "track decay 0.5",
+        "track_decay = 0.5"
+      ],
+      [
+        "35",
+        "track decay 0.99",
+        "track_decay = 0.99"
+      ],
+      [
+        "36",
+        "n dim 2",
+        "n_dim = 2"
+      ],
+      [
+        "37",
+        "n dim 20",
+        "n_dim = 20"
+      ],
+      [
+        "38",
+        "regime change prob 0",
+        "regime_change_prob = 0.0"
+      ],
+      [
+        "39",
+        "regime change prob 0.1",
+        "regime_change_prob = 0.1"
+      ],
+      [
+        "40",
+        "demagogue bias norm 0",
+        "demagogue_bias_norm = 0.0"
+      ],
+      [
+        "41",
+        "demagogue bias norm 3",
+        "demagogue_bias_norm = 3.0"
+      ],
+      [
+        "42",
+        "demagogue fraction 0.15",
+        "n_citizens = 70; n_demagogues = 15"
+      ],
+      [
+        "43",
+        "demagogue fraction 0.3",
+        "n_citizens = 55; n_demagogues = 30"
+      ],
+      [
+        "44",
+        "independent herding",
+        "strategic_mode = independent_herding"
+      ],
+      [
+        "45",
+        "coordinated herding",
+        "strategic_mode = coordinated_herding"
+      ],
+      [
+        "46",
+        "indicator targeting 0",
+        "strategic_mode = indicator_targeting"
+      ],
+      [
+        "47",
+        "indicator targeting 0.5",
+        "proxy_noise = 0.5; strategic_mode = indicator_targeting"
+      ],
+      [
+        "48",
+        "indicator targeting 1",
+        "proxy_noise = 1.0; strategic_mode = indicator_targeting"
+      ],
+      [
+        "49",
+        "indicator targeting firewall 0",
+        "strategic_mode = indicator_targeting_firewall"
+      ],
+      [
+        "50",
+        "indicator targeting firewall 0.5",
+        "proxy_noise = 0.5; strategic_mode = indicator_targeting_firewall"
+      ],
+      [
+        "51",
+        "indicator targeting firewall 1",
+        "proxy_noise = 1.0; strategic_mode = indicator_targeting_firewall"
+      ],
+      [
+        "52",
+        "interaction noise 0 delay 0",
+        "expert_noise = 0.9"
+      ],
+      [
+        "53",
+        "interaction noise 0 delay 12",
+        "expert_noise = 0.9; feedback_delay = 12"
+      ],
+      [
+        "54",
+        "interaction noise 1 delay 0",
+        "expert_noise = 0.9; proxy_noise = 1.0"
+      ],
+      [
+        "55",
+        "interaction noise 1 delay 12",
+        "expert_noise = 0.9; proxy_noise = 1.0; feedback_delay = 12"
+      ]
+    ]
+  },
+  "sensitivity": {
+    "headers": [
+      "Condition",
+      "PKD error",
+      "Random council",
+      "Election error"
+    ],
+    "widths": [
+      3.0,
+      1.25,
+      1.25,
+      1.2
+    ],
+    "rows": [
+      [
+        "expert noise 0.6",
+        "0.3303",
+        "0.9055",
+        "0.9041"
+      ],
+      [
+        "expert noise 0.9",
+        "0.3625",
+        "0.9651",
+        "1.0973"
+      ],
+      [
+        "track decay 0.5",
+        "0.1396",
+        "0.8696",
+        "0.7482"
+      ],
+      [
+        "track decay 0.99",
+        "0.1378",
+        "0.8696",
+        "0.6918"
+      ],
+      [
+        "n dim 2",
+        "0.0110",
+        "0.0909",
+        "0.0560"
+      ],
+      [
+        "n dim 20",
+        "0.3183",
+        "1.8414",
+        "1.4437"
+      ],
+      [
+        "regime change prob 0",
+        "0.1344",
+        "0.8696",
+        "0.6846"
+      ],
+      [
+        "regime change prob 0.1",
+        "0.1344",
+        "0.8696",
+        "0.6846"
+      ],
+      [
+        "demagogue bias norm 0",
+        "0.1343",
+        "0.8401",
+        "0.5842"
+      ],
+      [
+        "demagogue bias norm 3",
+        "0.1345",
+        "0.9629",
+        "0.5969"
+      ],
+      [
+        "demagogue fraction 0.15",
+        "0.1387",
+        "0.8968",
+        "0.8377"
+      ],
+      [
+        "demagogue fraction 0.3",
+        "0.1519",
+        "0.9381",
+        "0.9467"
+      ],
+      [
+        "interaction noise 0 delay 0",
+        "0.3625",
+        "0.9651",
+        "1.0973"
+      ],
+      [
+        "interaction noise 0 delay 12",
+        "0.3856",
+        "0.9651",
+        "1.1265"
+      ],
+      [
+        "interaction noise 1 delay 0",
+        "0.4773",
+        "0.9651",
+        "1.1301"
+      ],
+      [
+        "interaction noise 1 delay 12",
+        "0.4976",
+        "0.9651",
+        "1.1631"
+      ]
+    ]
+  }
+}
