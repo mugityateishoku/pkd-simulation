@@ -1,0 +1,9 @@
+{
+  "condition": "record_08_score",
+  "n_runs": 30,
+  "n_periods": 300,
+  "period_rows": 9000,
+  "baseline_max_error_gap": null,
+  "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+  "elapsed_seconds": 36.29227929998888
+}

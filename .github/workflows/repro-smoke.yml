@@ -15,11 +15,32 @@ jobs:
       - run: python -m pytest -q
       - name: Audit all archived full-study rows
         run: python verify_preprint.py
+      - name: Audit October influence data and retrospective claims
+        run: python verify_review.py
       - name: Exercise every declared condition
         run: python reproduce_preprint.py --workers 2 --runs 2 --periods 18 --output smoke-output
       - name: Rebuild summaries and figures from smoke output
         run: python analyze_preprint.py --input smoke-output
+      - name: Prepare a bounded observer smoke input
+        run: |
+          python - <<'PY'
+          import json
+          import shutil
+          from pathlib import Path
+          source = Path('results/preprint_2026')
+          target = Path('smoke-source')
+          (target / 'raw/baseline').mkdir(parents=True)
+          manifest = json.loads((source / 'study_manifest.json').read_text())
+          manifest['conditions']['baseline']['n_periods'] = 18
+          (target / 'study_manifest.json').write_text(json.dumps(manifest, indent=2))
+          shutil.copyfile(source / 'raw/baseline/period_metrics.csv.gz',
+                          target / 'raw/baseline/period_metrics.csv.gz')
+          PY
+      - name: Exercise every observer condition with two seeds and eighteen periods
+        run: python review_followup.py --source smoke-source --workers 2 --runs 2 --output review-smoke-output
       - uses: actions/upload-artifact@v4
         with:
           name: smoke-output
-          path: smoke-output
+          path: |
+            smoke-output
+            review-smoke-output

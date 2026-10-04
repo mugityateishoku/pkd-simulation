@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this model, please cite the software and accompanying preprint."
-title: "PKD collective estimation study"
+title: "Accuracy and influence in councils selected by track record and lottery: PKD simulation and preprint"
 type: software
-version: 3.3.0
-date-released: 2026-09-27
+version: 3.4.0
+date-released: 2026-10-04
 authors:
   - family-names: Harada
     given-names: Aruma
