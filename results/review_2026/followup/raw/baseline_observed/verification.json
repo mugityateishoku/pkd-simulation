@@ -1,0 +1,9 @@
+{
+  "condition": "baseline_observed",
+  "n_runs": 30,
+  "n_periods": 300,
+  "period_rows": 9000,
+  "baseline_max_error_gap": 0.0,
+  "policy_reconstruction_max_gap": 2.220446049250313e-15,
+  "elapsed_seconds": 39.174430300001404
+}

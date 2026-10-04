@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pkd-simulation"
-version = "3.3.0"
-description = "PKD collective estimation experiments and preprint"
+version = "3.4.0"
+description = "Accuracy and influence in councils selected by track record and lottery"
 requires-python = ">=3.12"
 dependencies = [
   "numpy>=2.0,<3",

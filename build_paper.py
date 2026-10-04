@@ -37,6 +37,7 @@ def eq(number):
     if number=='4':return seq(sub('z','i'),' = (1−ρ)',sub('x','i'),' + ρ',frac(summation('j∈Nᵢ',seq('exp(',sub('R','j'),')',sub('x','j'))),summation('j∈Nᵢ',seq('exp(',sub('R','j'),')'))),',     p = ',summation('i∈C',seq(sub('w','i'),sub('z','i'))))
     if number=='5':return seq(summation('i∈C',seq(sub('w','i'),'[(1−ρ)',sub('x','i'),' + ρp]')),' = (1−ρ)p + ρp = p')
     if number=='6':return seq('E',sup('‖x̄−θ‖','2'),' = ',sup(seq('‖',frac('1','N'),summation('i',sub('b','i')),'‖'),'2'),' + ',frac('1',sup('N','2')),summation('i',seq('tr(',sub('Σ','i'),')')))
+    if number=='7':return seq(sub('v','j'),' = (1−ρ)',sub('w','j'),' + ρ',summation('i∈C',seq(sub('w','i'),sub('A','ij'))),',     ',summation('j∈C',sub('v','j')),' = 1')
     raise ValueError(number)
 def hyperlink(p,url,label=None):
     rel=p.part.relate_to(url,RT.HYPERLINK,is_external=True);h=el('w:hyperlink',**{'r:id':rel});r=el('w:r');pr=el('w:rPr');pr.append(el('w:color',**{'w:val':'333333'}));r.append(pr);t=el('w:t');t.text=label or url;r.append(t);h.append(r);p._p.append(h)
@@ -44,8 +45,8 @@ def inline(p,text):
     for part in re.split(r'(https?://\S+)',text):
         if part.startswith('http'):hyperlink(p,part.rstrip('.')); p.add_run('.' if part.endswith('.') else '')
         else:
-            for token in re.split(r'([xbyR]_i|σ_y)',part):
-                if re.fullmatch(r'[xbyR]_i|σ_y',token):
+            for token in re.split(r'([xbyR]_i|σ_[iyI]|v_j|N_eff|interest_i)',part):
+                if re.fullmatch(r'[xbyR]_i|σ_[iyI]|v_j|N_eff|interest_i',token):
                     base,index=token.split('_');p.add_run(base);p.add_run(index).font.subscript=True
                 else:p.add_run(token)
 
@@ -66,7 +67,7 @@ for name,size in [('Heading 1',14),('Heading 2',12)]:
     st=doc.styles[name];st.font.size=Pt(size);st.font.bold=True;st.paragraph_format.space_before=Pt(12);st.paragraph_format.space_after=Pt(6);st.paragraph_format.keep_with_next=True
 doc.styles['Caption'].font.size=Pt(9.5);doc.styles['Caption'].font.italic=False;doc.styles['Caption'].font.bold=False
 doc.styles['Caption'].paragraph_format.space_after=Pt(10)
-doc.core_properties.author='Aruma Harada';doc.core_properties.title='Accuracy and representation tradeoffs in track record selected councils'
+doc.core_properties.author='Aruma Harada';doc.core_properties.title='Accuracy and influence in councils selected by track record and lottery'
 doc.core_properties.subject='PKD computational mechanism study';doc.core_properties.keywords='agent-based simulation, collective estimation, sortition, PKD'
 footer=section.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
 field=el('w:fldSimple',**{'w:instr':'PAGE'});footer._p.append(field)
@@ -115,7 +116,7 @@ for line in Path('paper/manuscript_source.md').read_text(encoding='utf-8').split
     if line.startswith('[[FIG|'):
         _,name,caption=line[2:-2].split('|',2)
         p=doc.add_paragraph();p.paragraph_format.keep_with_next=True;p.paragraph_format.space_before=Pt(8)
-        shape=p.add_run().add_picture(str(Path('results/preprint_2026/analysis')/(name+'.png')),width=Inches(6.7));shape._inline.docPr.set('descr',caption)
+        shape=p.add_run().add_picture(str(Path({'review_influence':'results/review_2026/followup/analysis/figure_followup.png','review_delay':'results/review_2026/archived_analysis/delay_initialization.png'}.get(name,'results/preprint_2026/analysis/'+name+'.png'))),width=Inches(6.7));shape._inline.docPr.set('descr',caption)
         doc.add_paragraph(caption,'Caption');continue
     if line.startswith('[[TABLE|'):
         _,key,caption=line[2:-2].split('|',2);make_table(key,caption);continue
@@ -126,7 +127,7 @@ for line in Path('paper/manuscript_source.md').read_text(encoding='utf-8').split
         continue
     p=doc.add_paragraph();inline(p,line)
     if front:p.paragraph_format.space_after=Pt(3)
-parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,default=Path('paper/PKD_preprint_v1.docx'));args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,default=Path('paper/PKD_preprint_v2.docx'));args=parser.parse_args()
 dest=args.output;dest.parent.mkdir(exist_ok=True)
 doc.save(dest)
 print(dest.resolve())

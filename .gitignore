@@ -3,7 +3,10 @@ __pycache__/
 *.py[cod]
 .venv/
 smoke-output/
+smoke-source/
+review-smoke-output/
 results/rerun/
+results/review-rerun/
 *.egg-info/
 build/
 dist/

@@ -1,0 +1,101 @@
+[
+  {
+    "condition": "record_00_equal",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.3322676295501878e-15,
+    "elapsed_seconds": 32.14379719999852
+  },
+  {
+    "condition": "record_02_equal",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.3322676295501878e-15,
+    "elapsed_seconds": 32.44835730000341
+  },
+  {
+    "condition": "record_00_score",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+    "elapsed_seconds": 33.01379959999758
+  },
+  {
+    "condition": "baseline_observed",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": 0.0,
+    "policy_reconstruction_max_gap": 2.220446049250313e-15,
+    "elapsed_seconds": 39.174430300001404
+  },
+  {
+    "condition": "record_05_equal",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+    "elapsed_seconds": 37.62019699999655
+  },
+  {
+    "condition": "record_02_score",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+    "elapsed_seconds": 38.197059199999785
+  },
+  {
+    "condition": "record_05_score",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 2.220446049250313e-15,
+    "elapsed_seconds": 39.065852900006576
+  },
+  {
+    "condition": "record_08_equal",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.3322676295501878e-15,
+    "elapsed_seconds": 41.57464030000847
+  },
+  {
+    "condition": "record_10_equal",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.3322676295501878e-15,
+    "elapsed_seconds": 34.41677599999821
+  },
+  {
+    "condition": "record_08_score",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+    "elapsed_seconds": 36.29227929998888
+  },
+  {
+    "condition": "record_10_score",
+    "n_runs": 30,
+    "n_periods": 300,
+    "period_rows": 9000,
+    "baseline_max_error_gap": null,
+    "policy_reconstruction_max_gap": 1.7763568394002505e-15,
+    "elapsed_seconds": 34.960576099998434
+  }
+]
