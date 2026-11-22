@@ -14,6 +14,11 @@ MODES = ("private", "copy", "coin", "learn0", "learn1", "learn1_optimistic")
 DEFAULT_MANIFEST = Path(__file__).parent / "results/preprint_2026/raw/baseline/manifest.json"
 
 
+def high_appeal_biased_reporters(agents):
+    # The frozen September model stores this operational profile under a legacy label.
+    return np.array([i for i, agent in enumerate(agents) if agent.agent_type == "demagogue"], dtype=int)
+
+
 def generate_inputs(config, seed):
     streams = np.random.SeedSequence(seed).spawn(16)
     agents = m.create_population(config, np.random.default_rng(streams[1]))
@@ -23,10 +28,10 @@ def generate_inputs(config, seed):
     for period in range(config.n_periods):
         world.update()
         if config.shock_enabled and period == config.shock_period:
-            for agent in agents:
-                if agent.agent_type == "demagogue":
-                    agent.bias = agent.bias * config.shock_bias_multiplier
-                    agent.appeal *= config.shock_appeal_multiplier
+            for i in high_appeal_biased_reporters(agents):
+                agent = agents[i]
+                agent.bias = agent.bias * config.shock_bias_multiplier
+                agent.appeal *= config.shock_appeal_multiplier
         private.append(np.array([a.register_raw_prediction(world.theta_star, observations) for a in agents]))
         states.append(world.theta_star.copy())
     return agents, np.array(states), np.array(private), streams
@@ -47,7 +52,7 @@ def trajectory(config, panel_name, mode, inputs, seed):
         count = 5 if panel_name == "mixed" else 10
         choice = config.with_updates(n_expert_seats=count, n_citizen_seats=10-count, pkd_deliberation=False)
         panel = m.PhilosopherKingDemocracy(choice, np.random.default_rng(streams[9]))
-    target = np.array([i for i, a in enumerate(agents) if a.agent_type == "demagogue"])
+    target = high_appeal_biased_reporters(agents)
     group = [a.party_id for a in agents]
     pop_party = np.bincount(group, minlength=config.n_parties) / len(agents)
     keys = [(a.primary_specialty, a.archetype, a.tolerance_bin) for a in agents]

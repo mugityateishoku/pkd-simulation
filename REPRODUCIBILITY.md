@@ -2,6 +2,8 @@
 
 The revised manuscript adds an observation-variance sensitivity, a cross-question reconstruction using political knowledge estimates, and an institution-specific adaptive reporting experiment. Each question set and simulation grid is exploratory. The current PDF, Word file and Markdown version are in `paper/PKD_preprint_november.*`. The October manuscript generation scripts rebuild the October paper.
 
+The November code calls the five reporters with directional bias, a narrow confidence radius and high appeal the high-appeal biased group. A single lookup in `high_appeal_biased_reporters` translates the frozen September type name. The legacy configuration keys in Appendix B identify the original archive columns.
+
 ## Inputs and outputs
 
 | Study | Input and comparison | Output |
