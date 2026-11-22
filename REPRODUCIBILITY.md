@@ -1,3 +1,22 @@
+# November 2026 extension
+
+The revised manuscript adds an observation-variance sensitivity, a cross-question reconstruction using political knowledge estimates, and an institution-specific adaptive reporting experiment. Each question set and simulation grid is exploratory. The current PDF, Word file and Markdown version are in `paper/PKD_preprint_november.*`. The October manuscript generation scripts rebuild the October paper.
+
+## Inputs and outputs
+
+| Study | Input and comparison | Output |
+| --- | --- | --- |
+| Citizen variance | Archived baseline manifest and its 30 seeds. The citizen-share-weighted variance is 1.1655. The grid retains all, half or none of the between-group variance spread. | `citizen_noise_runs.csv` has 90 runs × 9 mechanisms. |
+| Human panels | Becker, Porter & Centola (2019), [authors’ dataset](https://doi.org/10.7910/DVN/OE6UMR), Git revision `79d7658da169d9a943b0cbd221c38f47ffa7c11a`. Verified source SHA-256 `33596e95e4a02b015a9b971f44af80878d9ed9ce9fc9de0103394ce075539c97`. | `empirical_folds.csv` has 32 paired pools × 4 held-out questions × 3 capping settings. |
+| Adaptive reporting | Shared private observations and 3 institution-specific public histories × 6 strategies × 60 seeds. Each trajectory spans 300 periods. The second set of 30 seeds is generated from root 20261122 and is disjoint from the archived seeds. | `adaptive_runs.csv` has 1,080 trajectories. |
+| Audits | Paired mean differences by pool or seed. The unit of uncertainty is the original participant pool (16 per experiment, questions fixed), or the simulation seed (30 per cohort). | `estimates.csv` contains 702 means/contrasts and pointwise intervals. |
+
+All four outputs are in `results/november_2026/`. Run `python verify_november.py` to check them. It reconciles 270 variance and 90 adaptive control results to archived losses. `python plot_empirical.py` regenerates Figure 7. Commands for running each simulation or the checksum-verified public-data analysis appear in the README.
+
+The primary human comparison caps both tails at 5%, uses each uncapped question’s within-pool IQR, and recomputes records from the other three questions. All panels compared within a fold have access to the same first-round reports. Pool summaries integrate 512 common tied rankings/lotteries. Endpoints include squared and absolute loss. The 2.5% and uncapped sensitivities retain identical random priorities. Heavy tails make the mean of squared loss sensitive to preprocessing. No individual-level data are committed.
+
+The adaptive study uses the frozen core’s selection and estimation methods. Private and lagged-copy reports use the same matched observation paths across conditions. Agent learning uses the chosen action’s realized reward at the next rotation. The alternative optimistic initialization was added after inspecting the neutral setting. Appendix F specifies information, reward, exploration, timing and the held-out party diagnostic. Fresh seeds check sensitivity to randomness and do not turn exploratory analyses into preregistered studies.
+
 # September and October 2026 reproducibility record
 
 Version 2 uses the preserved September study in `results/preprint_2026/` and the October review in `results/review_2026/`. September has 55 labeled batches, each with 30 runs and 300 periods. The labels `expert_noise_0.9` and `interaction_noise_0_delay_0` have identical resolved settings, seeds and output tables. They supply one shared reference, not two independent experiments: there are 54 distinct settings, 1,650 executions and 1,620 unique setting-seed combinations. The conditions were specified before execution, but the study was not preregistered. Root seed: 20260927.
@@ -35,3 +54,4 @@ The October observer source is preserved byte for byte from the executed study. 
 Use `python verify_review.py` for a read-only audit. `python verify_review.py --write-report` explicitly records a fresh successful audit and its input hashes; normal audits check against that report. `FILE_SHA256SUMS.txt` supplies release-wide file checksums. The September model and runner hashes are unchanged in this release.
 
 Bibliographic metadata and primary-source checks are recorded in `references/`. Metadata alone do not verify a scientific claim. Older scripts, drafts and results are not evidence for this study and have been removed from the current release tree; their source revisions remain in Git history.
+

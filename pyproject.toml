@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pkd-simulation"
-version = "3.4.0"
+version = "3.5.0"
 description = "Accuracy and influence in councils selected by track record and lottery"
 requires-python = ">=3.12"
 dependencies = [
@@ -16,3 +16,4 @@ dependencies = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
+

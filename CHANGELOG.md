@@ -1,3 +1,10 @@
+# Version 3.5.0 — 22 November 2026
+
+- Published a revised preprint in Word, PDF and Markdown with the accuracy–coverage–influence comparisons in the main text.
+- Added a held-out panel analysis of 1,943 complete participant records from two political-knowledge experiments, with group-level data and extreme-value sensitivities.
+- Added 1,080 adaptive-reporting trajectories across 60 independent worlds and an off-stratum representation diagnostic.
+- Archived the citizen-variance sensitivity, the paired effect estimates and the code to reproduce and check the results. September and October model and data files retain their original hashes.
+
 # Version 3.4.0 — 4 October 2026
 
 Preprint version 2, **Accuracy and influence in councils selected by track record and lottery**, distinguishes nominal council membership from the coefficients used to form the decision. The September simulator and execution script remain unchanged.
@@ -21,3 +28,4 @@ The preprint and repository now report one newly executed, auditable study. Hist
 - Replaced political-superiority and adaptation claims with measured tradeoffs, analytical invariance and timing failures.
 - Corrected four-archetype attribution and bounded-confidence novelty claims; disclosed substantive AI assistance.
 - Added ODD description, all settings, manuscript sources, PDF, DOCX and citation metadata.
+
