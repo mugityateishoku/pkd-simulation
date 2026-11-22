@@ -1,3 +1,13 @@
+# Weight strength, dependence and representation
+
+Run `python weight_strength.py simulation --workers 4` and `python weight_strength.py human` from the repository root. The human command accepts `--input PATH` for the original pinned CSV. Run `python analyze_weight_strength.py` to regenerate the paired tables and Figure 4. Add `--check` to verify the published summaries. The pinned dependencies are in requirements-lock.txt.
+
+The seven β levels are 0, ⅛, ¼, ½, 1, 2 and 4. Each of 30 original seeds supplies 300 periods. Within each of four error correlations the program performs panel selection once per rotation and applies all β levels to exactly those inputs. Direct weighting and bounded-confidence revision are both evaluated. With revision, β applies to neighborhood and final weights. The independent-data endpoint reproduces both September controls at the run level. The common source uses a separate seed stream and preserves individual marginal error distributions. Its amplitude scales with each reporter’s observation standard deviation as specified in Appendix G.
+
+Each of 32 human pools supplies four holdout questions, 512 draws and three response caps. Each fixed panel and its scores are reused at every β. The program compares both historical endpoints against each original fold, then publishes only the aggregate per pool. The two-party discrepancy equals the absolute error in one party’s share, measured either by seats or by weights. Simulated party labels are excluded from selection strata, while the human lottery uses party quotas. The historical full-pool median supplies the unrestricted human benchmark.
+
+In `results/weight_strength`, `simulation_runs.csv` and `human_pools.csv` contain the independent-unit summaries repeated across settings. The two `*_estimates.csv` files give levels and within-unit contrasts with β = 0 or 1, including the median contrast and pointwise paired t intervals. They support alternative comparisons using matched seeds or pools. `weight_strength.png` is Figure 4. The central grid was selected after inspecting earlier results. No grid value is fitted for prediction on new tasks.
+
 # November 2026 extension
 
 The revised manuscript adds an observation-variance sensitivity, a cross-question reconstruction using political knowledge estimates, and an institution-specific adaptive reporting experiment. Each question set and simulation grid is exploratory. The current PDF, Word file and Markdown version are in `paper/PKD_preprint_november.*`. The October manuscript generation scripts rebuild the October paper.
@@ -13,7 +23,7 @@ The November code calls the five reporters with directional bias, a narrow confi
 | Adaptive reporting | Shared private observations and 3 institution-specific public histories × 6 strategies × 60 seeds. Each trajectory spans 300 periods. The second set of 30 seeds is generated from root 20261122 and is disjoint from the archived seeds. | `adaptive_runs.csv` has 1,080 trajectories. |
 | Audits | Paired mean differences by pool or seed. The unit of uncertainty is the original participant pool (16 per experiment, questions fixed), or the simulation seed (30 per cohort). | `estimates.csv` contains 702 means/contrasts and pointwise intervals. |
 
-All four outputs are in `results/november_2026/`. Run `python verify_november.py` to check them. It reconciles 270 variance and 90 adaptive control results to archived losses. `python plot_empirical.py` regenerates Figure 7. Commands for running each simulation or the checksum-verified public-data analysis appear in the README.
+All four outputs are in `results/november_2026/`. Run `python verify_november.py` to check them. It reconciles 270 variance and 90 adaptive control results to archived losses. `python plot_empirical.py` regenerates Figure 5. Commands for running each simulation or the checksum-verified public-data analysis appear in the README.
 
 The primary human comparison caps both tails at 5%, uses each uncapped question’s within-pool IQR, and recomputes records from the other three questions. All panels compared within a fold have access to the same first-round reports. Pool summaries integrate 512 common tied rankings/lotteries. Endpoints include squared and absolute loss. The 2.5% and uncapped sensitivities retain identical random priorities. Heavy tails make the mean of squared loss sensitive to preprocessing. No individual-level data are committed.
 

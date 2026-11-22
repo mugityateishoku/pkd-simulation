@@ -6,31 +6,39 @@ Independent Researcher
 
 ORCID 0009-0005-6674-5165
 
-November 2026 revision | 22 November 2026 | Preprint
+Revised preprint | 22 November 2026
 
 ## Abstract
 
-A lottery can change who sits on an advisory panel while leaving much of the final estimate in the hands of its highest-scoring members. I separate these effects in ten-seat councils that allocate five places by past accuracy and five by stratified lottery. In a common-state simulation, the lottery broadens coverage of declared strata. Its members occupy half the seats but receive 13.3% of the aggregate weight. Equal weighting of identical councils increases estimation error. I then reconstruct panels from first-round answers in two published experiments on quantitative political knowledge, scoring participants on three questions and holding out a fourth. The lottery receives 30.6% and 9.1% of the weight in the two experiments. Record weighting reduces mean squared error in the first. In the second, a single participant pool reverses the direction of the mean comparison. A separate simulation lets agents learn whether to report a private estimate or copy the last panel output. An initial preference for copying increases early uptake and full-run loss. Across these comparisons, reserving seats and allocating input weight have distinct, measurable consequences. The accuracy gained from weighting depends on how well an individual’s record transfers to the next task and on the cost of occasional large errors.
+Ten seats on an advisory council can be divided equally between two routes of admission even when one group supplies most of the final judgment. I study councils that award five seats for past accuracy and allocate five by stratified lottery. Holding membership and submitted estimates fixed, I vary how strongly scores determine each member’s weight. I measure the contribution of each route to the final numerical estimate, its error against the resolved answer, and the discrepancy between the population’s party shares and the shares represented in the estimate. Under independent observation errors, halving the baseline weight strength raises the lottery group’s contribution from 13.3% to 20.9% and slightly reduces error. Introducing a common source of error preserves each agent’s marginal precision and reverses the accuracy comparison. I apply the same panel design to first-round answers from two experiments on political knowledge. Three questions determine the membership and weights used on a fourth. Stronger weighting reduces the lottery share in both experiments. In the second, a large miss in one participant pool outweighs improvements in most others. Under the primary preprocessing, the full pool’s median has the lowest observed mean squared error in both experiments. Individual answers remain fixed within each comparison. The findings identify a design choice for size-limited panels. Seats secure access to the calculation, while score weighting and information exchange determine how much each estimate contributes. The accuracy consequences depend on error dependence, the transfer of records across questions and the loss assigned to occasional large misses.
 
 Keywords: agent-based simulation; collective estimation; prediction aggregation; sortition; bounded confidence; model verification
 
+## Significance statement
+
+Suppose an advisory panel has ten seats. Five go to people who have answered earlier questions accurately. The other five are filled by lottery to bring a wider range of people into the room. How much of the panel’s final estimate actually comes from the second group? The answer depends on what happens after the seats are filled. The same ten people can produce very different collective judgments when the rule for combining their answers changes.
+
+I follow each person’s numerical contribution through the calculation. In a simulation, the lottery members could gain influence with a small improvement in accuracy when people made independent errors. Once they drew on a common source of information, giving lottery members more influence carried a measurable cost in accuracy. The people in the room stayed the same within each comparison. Their party composition also stayed the same, even as the distribution of influence across parties shifted.
+
+The human evidence comes from people estimating facts about politics. Across two experiments, using past performance consistently reduced the share of the final answer supplied by lottery members. The effect on accuracy differed. In one experiment, the same weighting rule helped most groups but produced a sufficiently large miss in one group to worsen the average. Anyone designing a panel to answer questions with verifiable answers can measure these consequences before choosing a rule. When everyone’s answer is already available, the accuracy of an unrestricted crowd supplies a practical benchmark for the cost of limiting participation in practice.
+
 ## 1 Introduction
 
-An advisory panel can recruit people from more backgrounds and still base most of its estimate on a few members. To see how this happens, consider two decisions an organizer makes: who receives a seat, and how the panel combines the estimates of those seated. I study a rule originally called Philosopher-King Democracy (PKD). It reserves seats for a stratified lottery, selects the remaining members by past accuracy, and weights their estimates by those same records.
+An advisory council may have room for ten members even when many more people can submit estimates. A lottery can broaden the set of people at the table. Once members report, an analyst must decide how to combine their answers. Giving all ten the same weight and weighting them by their previous accuracy are both compatible with the same allocation of seats. How much of the final estimate comes from the lottery members under each rule, and what does the change cost in accuracy?
 
 These decisions call for different comparisons. Holding panel size and weighting fixed reveals what a lottery seat adds to coverage and costs in estimation error. Holding the actual members fixed reveals what weighting does to their influence. If every candidate already supplies a scored estimate, the pool of all submissions provides a third benchmark: the accuracy available before imposing a seat limit.
 
 The experiment gives each agent a noisy observation of the same current state. Every estimate can therefore be scored against a common outcome. This makes it possible to trace a difference in collective error to the selection rule, the information it uses or the way it combines members’ inputs.
 
-I estimate each member’s coefficient in the panel output and compare councils with the same members, information and number of seats. A synthetic experiment identifies the consequences of each rule under known observation errors. A secondary analysis of public human responses asks which of those patterns transfer across factual questions. Finally, a simulation with institution-specific public histories tests whether feedback sustains copying. The common outcomes are collective error, descriptive composition and the weight attached to each route of entry.
+I compare the same seated members under seven strengths of performance weighting. For each panel I measure the fraction of the final estimate attributable to lottery entrants, the error against a resolved answer, and the difference between population party shares and parties’ shares of seats or input weight. A common-source experiment tests what happens when members make correlated errors. Reconstructed panels of human respondents test whether the same pattern arises across political knowledge questions. These comparisons make the consequences of a participation constraint visible alongside the unrestricted crowd benchmark.
 
 ## 2 Relation to prior work
 
-In prediction with expert advice, an aggregator can assign weights using a forecaster’s past losses (Cesa-Bianchi and Lugosi, 2006). PKD uses a discounted history of squared errors twice, first for admission to part of the council and again to combine the members’ submissions. Comparing this arrangement with population-wide weighting measures the cost of restricting participation in the aggregate.
+Forecast combination research studies how individual errors, their covariances and the estimation of weights affect predictive accuracy (Wang et al., 2023). Prediction with expert advice provides formal rules for updating weights from losses (Cesa-Bianchi and Lugosi, 2006). Here a single record plays two roles. It determines admission to five seats and it can amplify all ten members’ inputs. Keeping the people and their reports fixed isolates the second use. The empirical quantity of interest is the input weight assigned to each route of admission at a given level of accuracy.
 
 DeGroot (1974) models consensus through opinion averaging. Hegselmann and Krause (2002) restrict interaction to sufficiently close estimates, and Lorenz (2010) allows that threshold to vary by agent. Golub and Jackson (2010) examine when social learning aggregates dispersed information. Here members take one synchronous averaging step on fresh inputs. The resulting aggregate can be expressed in terms of the original estimates, so the weight each member ultimately receives can be measured directly.
 
-For deliberative assemblies, Landemore (2013) links random selection to the inclusion of diverse problem-solving perspectives. Flanigan et al. (2021) study how assembly selection rules affect individuals’ chances of inclusion. PKD addresses a subsequent design choice: once a member is seated, how much of their estimate enters the panel output? I report the population share covered by occupied strata alongside the coefficients on those members’ estimates.
+Landemore (2013) relates random selection to the inclusion of diverse perspectives. Flanigan et al. (2021) quantify how fairly assembly seats are allocated to eligible individuals. These accounts motivate two observable questions after selection. How broad is the membership on a declared attribute? How much of the final estimate comes from members with that attribute? I measure both and use a party label omitted from the synthetic lottery to test whether coverage extends beyond its design criteria.
 
 Hong and Page (2004) study solvers who use different perspectives and heuristics to search for solutions. In PKD, agents observe the same quantity with different precision and some have systematic bias. A seat can thus broaden coverage of declared strata and at the same time introduce a less precise estimate. The fixed-membership comparison tests how pooling handles that combination.
 
@@ -114,6 +122,8 @@ $$
 
 The coefficients in Eq. (7) sum to one and reconstruct the implemented output for the observed council and confidence neighborhoods. Changing an input enough to change a neighborhood can also change its coefficient. I summarize concentration by the reciprocal of the sum of squared coefficients: it equals ten for ten equal inputs and approaches one when a single estimate carries almost all the weight.
 
+For direct aggregation, write q(β) for the lottery group’s total weight when each seated member’s weight is proportional to exp(βR). Its derivative is q(1 − q) times the difference between the lottery and record groups’ own weighted mean scores. This follows by differentiating a member’s weight, which gives its weight times its deviation from the panel’s weighted mean score. At selection the five record entrants weakly outrank the others, so direct lottery weight cannot exceed one half for β ≥ 0 and cannot increase with β. Human panels use these same scores to select and combine reports. How fast influence falls and what happens to accuracy remain empirical questions. Between simulated rotations the rankings can change. Local averaging also redistributes input weight before the final vote.
+
 ## 4 Experimental design and verification
 
 The September archive contains 55 labeled batches and 54 distinct configurations. Each uses the same 30 seeds derived from root seed 20260927 and runs for 300 periods. Two labels in Table B1 repeat both configuration and seeds, yielding 1,620 unique setting–seed combinations. Independent random streams generate the world, traits, observations, indicators, strategies and selection draws. Comparisons with fixed dimensions and population can be paired on those streams. Varying dimensions or population composition can change the mapping of random draws.
@@ -130,7 +140,7 @@ The October follow-up used windows chosen after inspecting the September runs. P
 
 A second October comparison varies record seats over 0, 2, 5, 8 and 10 in a ten-seat council, crossed with equal or score-based final weights and with local averaging disabled. An eleventh condition replays the original five-plus-five baseline with averaging enabled. All 11 use the same 30 seeds and 300 periods. Four repeat September conditions to add coefficient measurements. The observer reconstructs the existing output without drawing random numbers. At a fixed seat mix, the weighting interventions preserve original estimates, records and member identities.
 
-The November sensitivity analysis varies the spread of the four citizen observation variances while preserving their population-weighted mean. It reuses the baseline seeds, configuration and scoring schedule. Appendix D gives the transformation, the results and an executable reproduction recipe. Table B1 lists the separate September experiments on score projection, dimensionality and record decay. Sections 5.7–5.8 report a retrospective participant-panel comparison and a separate adaptive simulation. Appendices E–F specify their estimands, timing, data exclusions and uncertainty.
+The weight-strength study pairs seven values of β with four levels of correlated observation error. Within each correlation condition the reports, records, membership and confidence neighborhoods are identical at every β. A parallel study reconstructs ten-person panels from public answers and uses each of four questions in turn for evaluation. Appendix G gives the shared-source construction, estimands and paired uncertainty calculations. Appendices D–F document citizen noise, human preprocessing and adaptive reporting. Election, feedback and shock results are collected in Appendix H.
 
 ## 5 Results
 
@@ -155,7 +165,7 @@ Among ten-seat councils, the hybrid estimates the state more accurately than a u
 
 *Figure 1. Baseline accuracy and descriptive coverage. Points and bars give means and 95% Monte Carlo intervals. Panel A uses a logarithmic scale. Whole-population rules pool 100 estimates. The perfect current-indicator diagnostic has zero error and falls outside the log axis.*
 
-Appeal ranking disproportionately seats the group assigned both high appeal and bias. This follows directly from the way eligibility for those seats is ranked. The default ballot and single-member rules also differ in term length and panel size. Section 5.4 matches procedures to isolate the role of public records.
+Appeal ranking disproportionately seats the group assigned both high appeal and bias. This follows directly from the way eligibility for those seats is ranked. The default ballot and single-member rules also differ in term length and panel size. Appendix H1 matches procedures to isolate the role of public records.
 
 ### 5.2 Council composition and aggregation weights have separate effects
 
@@ -179,69 +189,41 @@ To isolate weighting, Figure 3 compares exactly the same five-plus-five councils
 
 *Figure 3. Fixed-size council comparison. Lines vary the split between ten record and lottery seats with local averaging disabled. Weighting comparisons use identical members and seeds at each split. The star marks the baseline replay with local averaging enabled. Panel A uses a log scale. Panel C sums the coefficients on original estimates from lottery members.*
 
-Coverage is evaluated on the same strata used for the lottery. Figure 3 therefore measures how well the rule reaches its declared constituencies. Coverage of an independently defined attribute is a separate empirical question.
+Using five lottery seats extends coverage on the attributes used to draw them. On a separate party label omitted from the simulated lottery, replacing five record seats raises coverage of the target strata by 12.36 percentage points, while the change in the discrepancy from population party shares is −0.0090 (95% paired interval −0.0266 to +0.0085). This comparison uses the 30 fresh runs in Appendix F. The coverage result identifies which parts of the population gain a seat. The party comparison tests how far that finding extends to another attribute.
 
-### 5.4 Giving voters records narrows the information gap
+### 5.4 Weight strength and common information
 
-When voters see clean public records, shifting weight toward those records sharply reduces error relative to voting solely on other cues (Figure 4). The lowest mean among the five settings occurs before the record receives full weight. Noise in the record signal or contamination by campaign cues erodes much of the gain. The ordinary ballot retains utility noise even when voters place full nominal weight on records.
+At the baseline level of independent error, reducing β from one to one half increases lottery members’ effective input share from 13.3% to 20.9% and slightly reduces mean squared error. A shared source changes that comparison. At error correlation 0.5, halving β gains almost the same amount of lottery influence, but increases error. Common noise limits the cancellation of errors when more weight is spread across reports. Here its amplitude scales with each agent’s observation standard deviation, so concentrating weight on precise reporters can reduce exposure to that common component. Figure 4 shows all seven strengths. Table G2 gives the paired uncertainty for this contrast.
 
-![Figure](../results/preprint_2026/analysis/figure3_election.png)
+Descriptive composition is fixed across β. The population share covered by the seated strata is exactly constant within each synthetic run and correlation condition. Yet the discrepancy between parties’ input-weight shares and their population shares grows as weighting strengthens on average. The human panels show the same separation, including when party is a lottery quota. Seats constrain who can contribute, while the aggregation rule determines the distribution of that contribution.
 
-*Figure 4. Panel A varies the public-record weight with clean signals. Panels B and C set the nominal record weight to 0.75 and vary record noise and campaign contamination, respectively. Positive gaps indicate higher ballot error relative to PKD. Each point uses the same 30 seeds.*
+![Figure](../results/weight_strength/weight_strength.png)
 
-The matched test uses five seats, six-period terms and equal final weights in both procedures. All voters see identical rankings, place all weight on the record and face no utility noise. After the first council rotates, the estimates from ballots and direct ranking agree to numerical precision across the 30 runs. A shared ranking can implement the same selection through either procedure.
+*Figure 4. Changing weight strength on the same ten members. The simulation applies β to local and final weights. Human panels use direct weights and the primary 5% caps. Dotted lines give discrepancy in seat shares. Solid lines in the bottom row give discrepancy in effective input shares. Dashed horizontal lines in the human error plots mark the unrestricted median. Error units and vertical scales differ across columns. The horizontal axis lists the tested values at equal spacing. Pointwise paired contrasts are available in the accompanying data.*
 
-### 5.5 Feedback quality and timing require separate interpretations
+### 5.5 Held-out political knowledge estimates
 
-A noisy indicator makes records less informative about accuracy relative to the true state. Restricting scoring to fewer coordinates has two effects: it changes the information available to rank members and changes the size of losses passed into exponential weights. Figure 5 shows the resulting joint response.
+Three political knowledge questions supply a record for selecting and weighting the panel on a fourth. The five lottery seats carry less weight at every positive strength in both experiments (Figure 4). This direction follows from the selection rule. The extent of concentration differs sharply: at the baseline strength the lottery supplies about one third of the first experiment’s estimate and less than one tenth of the second’s. Under the primary preprocessing, the unrestricted median has lower mean squared error than the mixed council at every tested strength in both experiments.
 
-Feedback delay also raises full-run error, mainly because all records start at zero. The longest delay extends the time that a council must select and weight members without scored observations. Later-window paired intervals span zero for each tested delay (Figure C1). Separating startup from later terms changes the interpretation of the full-run average.
-
-![Figure](../results/preprint_2026/analysis/figure4_scoring.png)
-
-*Figure 5. Shared scoring-channel interventions. Points average all 300 periods, including initialization. Delay affects individual records while incumbent feedback remains immediate. Restricting the number of scored coordinates also changes the scale of the summed loss.*
-
-The strategy tests give the high-appeal biased agents fixed reporting options. In the herding conditions, agents outside the previous PKD council copy its last estimate with individual or shared noise. Previously seated agents report their private estimates. Two other conditions allow copying of the current or previous scoring indicator. Every comparator receives the same modified submissions.
-
-Herding raises both the group’s occupancy and the council’s error. Copying the current indicator produces a different pattern (Figure 6). An exact indicator rewards a report that also tracks the state perfectly. A noisy indicator rewards a copy just as highly even though the report now transmits shared measurement error. Occupancy alone cannot distinguish these outcomes.
-
-![Figure](../results/preprint_2026/analysis/figure5_gaming.png)
-
-*Figure 6. Estimation error and high-appeal biased agents’ share of council seats under fixed reporting rules. Current-indicator access exposes the scoring target before registration. Lagged access exposes only the previous indicator. Noise is the indicator’s per-coordinate standard deviation.*
-
-Access timing explains the divergence. A copy of the current scoring target earns zero scored loss whatever its distance from the true state. Requiring the previous indicator instead substantially reduces error in the noisy cases. Even a lagged exact indicator can help a copier gain seats in a persistent world while carrying an out-of-date estimate into the aggregate (Figure 6).
-
-### 5.6 Shock controls and sensitivity boundaries
-
-The paired no-shock control shows that increasing bias and appeal raises error most strongly for appeal ranking among the councils shown in Figure B1. The mixed council shows a small positive effect. Its two entry routes and its final weights give appeal no direct role, whereas appeal ranking selects on the trait changed by the intervention.
-
-Raising the observation noise of the initially low-noise group increases hybrid error. Expanding the high-appeal biased group also increases its seat share, showing why group occupancy and estimation error must be reported separately. Changing the target’s redraw frequency leaves baseline errors unchanged, as the cancellation in Section 3.3 predicts (Table B2).
-
-When low-noise agents become less precise, combining indicator noise with delayed records gives the largest hybrid error among the four jointly varied settings (Table B2). The citizen-variance check poses a different question. Equalizing variance across the four citizen groups raises hybrid error, while the uniform random council and the population mean change little. The mixed council retains its advantage over the random council, and pooling every submission with score weights retains its accuracy advantage over the mixed council (Table D1).
-
-### 5.7 Held-out political knowledge estimates
-
-In each of two published experiments, I use a participant’s accuracy on three questions to select and weight the panel answering a fourth. Both rules aggregate the same first-round answers from the same ten people. Equal weighting assigns half of the input weight to the five lottery seats. Record weighting cuts that share in both experiments, but the accuracy comparison differs between them (Table E1).
-
-In Experiment 1, weighting by the other three questions reduces squared error in 13 of 16 participant pools. In Experiment 2, it reduces error in 12 of 16 pools, yet an unusually large loss in one pool outweighs those gains. Omitting that one pool switches the mean difference from positive to negative. All pools are retained in the primary comparison. This is the distinction between a rule that helps a typical panel and one that minimizes the expected cost of a large miss. The full-pool median has the lowest observed mean loss of the seven rules in each experiment under the primary preprocessing.
+Accuracy follows different paths. In Experiment 1, moderate weighting reduces mean squared error relative to equal weights. In Experiment 2, increasing β raises mean squared error throughout the tested grid. At β = 1, weighting still improves 12 of 16 participant pools in Experiment 2. One large miss more than offsets the gains elsewhere. Figure 5 displays all pools, including that one. Table E2 shows how the direction and scale of the comparison change with the treatment of extreme answers and the choice of loss.
 
 ![Figure](../results/november_2026/empirical_contrasts.png)
 
-*Figure 7. Within-pool difference in mean squared error between record and equal weights on identical mixed panels. Negative values favor record weights. Each point averages the four held-out questions and 512 lottery draws for one participant pool. Diamonds show the equally weighted mean across pools. The lower axis is linear from −1 to 1 and logarithmic outside that interval. Vertical offsets separate overlapping points.*
+*Figure 5. Within-pool difference in mean squared error between record and equal weights on identical mixed panels. Negative values favor record weights. Each point averages the four held-out questions and 512 lottery draws for one participant pool. Diamonds show the equally weighted mean across pools. The lower axis is linear from −1 to 1 and logarithmic outside that interval. Vertical offsets separate overlapping points.*
 
-### 5.8 Learning to copy and testing representation off the lottery strata
+### 5.6 Reporting incentives
 
 If all five eligible reporters copy the last output whenever it exists, the mixed council gives them about a quarter of its seats and its error nearly triples relative to private reporting (Table F1). Under a learning rule that begins without a preference, copying is rare. Giving copying a favorable initial value raises its use and average error, although copying falls to about 5% of eligible reports in the second half. The previous council output is public in every case. The different results arise from how long reporters keep using it while building a record.
 
-A second test evaluates representation on an attribute absent from the lottery strata. Among private-report panels on fresh seeds, replacing five record seats with five lottery seats raises coverage of the lottery’s own strata by 12.36 percentage points. The paired change in discrepancy from the population’s party shares is −0.009 on the total-variation scale, with an interval spanning zero (Appendix F). The evidence for broader coverage therefore depends on which attribute is evaluated.
+The rule for combining reports can therefore affect what later reporters choose to submit when they observe the council’s published output. Appendix F gives the comparison on fresh simulation runs. Appendix H reports how the earlier fixed reporting rules, electoral information and feedback timing affect the same model.
 
 ## 6 Discussion
 
 ### 6.1 What seat counts leave out
 
-A reserved seat changes whose estimate reaches the council. A weighting rule decides how far that estimate travels into the final decision. The distinction matters even at fixed council size: a stratified lottery extends coverage, yet once the members sit down, their past records still determine much of their influence. Comparing the same members under two weighting rules makes this second effect directly observable.
+For a council with a seat limit, admission and aggregation are separate design decisions. In the direct score-based panel, some loss of lottery weight is mathematically guaranteed once the other five places go to the best records. Its magnitude, the distribution of influence across parties and the corresponding change in error are not fixed by that argument. Following those three outcomes on identical members identifies when giving lottery entrants more influence improves accuracy and when it carries a cost.
 
-For research on sortition, the model supplies an outcome to measure alongside composition: the share of a collective estimate attributable to the members admitted through each route. For forecasting research, it makes panel size and access explicit constraints. A comparison between a mixed panel and an unrestricted pool answers a different design question from a comparison between two ten-seat panels. The matched ballot illustrates the same principle for information access: identical ranking information and procedures yield identical choices after initial ties resolve.
+A seat limit matters to the interpretation of accuracy. The strongest baseline rule in the simulation pools all 100 reports with record weights. In both human experiments the full-pool median has the lowest mean squared error among the seven original rules under the primary caps. If the task is solely to estimate a quantity and every answer is available, those unrestricted rules are relevant alternatives. A ten-seat comparison addresses settings in which only a limited number of participants can sit, review evidence or issue the joint recommendation. The model treats the seat budget as given and quantifies the resulting consequences.
 
 ### 6.2 Limitations
 
@@ -249,7 +231,7 @@ The decision is a contemporaneous estimate of an exogenous state. Every candidat
 
 The synthetic population shares, observation scales, ballot utilities and confidence radii are design choices. The human comparison supplies observed error histories for a separate panel benchmark. It leaves the synthetic parameters on their original scale. The simulated types bundle traits, so a group contrast cannot isolate openness. Coverage depends on the attribute being assessed, and an input coefficient describes the calculation conditional on a realized council and neighborhood.
 
-Both human tasks and simulation settings were chosen retrospectively. The human trials supply four factual questions per experiment, a complete-case population and short records. Some participants could have learned from earlier questions. The question order is not reconstructed and the historical-record exercise is cross-question, not prospective. The intervals condition on these questions. In the simulations, score projection and dimension change distance and weight scales, and record decay also changes incumbent memory. Earlier fixed-copy comparisons share PKD’s public history. The new adaptive comparisons give each institution its own history.
+Each human experiment supplies four factual questions, complete cases and three-question records. The holdout is across questions, with no reconstructed time order. Inference conditions on those questions and source pools. The second experiment’s mean is particularly sensitive to extreme reports. The simulations vary one kind of dependence, a common zero-mean shock scaled by individual precision. Persistent common bias, correlated faction-specific sources or endogenous choice of sources could produce other curves. The grid and comparisons are exploratory. A value with the smallest observed error on the grid requires independent evaluation before use elsewhere.
 
 ### 6.3 What a prospective test would add
 
@@ -259,7 +241,7 @@ The learning experiment isolates retention of a reporting strategy when agents r
 
 ## 7 Conclusion
 
-The lottery changes admission, while score weights decide how much each admitted estimate contributes. Both the simulation and the human reconstruction show that half the seats can carry much less than half the input weight. The gain in accuracy varies across tasks: weighting helped on average in one human experiment, while large misses dominated the second. An evaluation of a panel should report whose estimates entered, how much they counted, the severity of its worst misses, and what a full pool of the same available estimates would have achieved.
+In both human experiments, the same ten seats support a wide range of lottery influence as score weighting changes. Whether stronger weighting improves accuracy depends on the task and how occasional large errors are valued. In the simulation, changing the shared component of observation errors even reverses the accuracy effect of the same weighting decision. An advisory panel can be evaluated by specifying its seat constraint, reporting actual input shares alongside membership, and comparing its error with the best available unrestricted benchmark.
 
 ## Declarations and availability
 
@@ -267,7 +249,7 @@ Aruma Harada, Independent Researcher (ORCID 0009-0005-6674-5165), received no ex
 
 OpenAI Codex assisted with literature checking, code revision, experimental execution, statistical analysis, figure preparation and substantive drafting. The author is responsible for the claims, code and citations.
 
-Study materials and the revised manuscript are available at https://github.com/mugityateishoku/pkd-simulation. The September and October archives document the frozen core and its checks. The November programs citizen_variance.py, empirical_panels.py and adaptive_panels.py reproduce the new experiments. Results under results/november_2026 include fold-level and run-level records, paired estimates and the figure. verify_november.py reconstructs the summaries and checks replay against the archive. Appendix E identifies the original public human dataset.
+Study materials and the revised manuscript are available at https://github.com/mugityateishoku/pkd-simulation. The September and October archives document the frozen core and its checks. The November programs citizen_variance.py, empirical_panels.py and adaptive_panels.py reproduce the new experiments. Results under results/november_2026 include fold-level and run-level records, paired estimates and the figure. verify_november.py reconstructs the summaries and checks replay against the archive. Appendix E identifies the original public human dataset. The weight-strength code, run and participant-pool summaries, paired contrasts and Figure 4 are distributed in results/weight_strength and the two Python entry points described in Appendix G.
 
 ## References
 
@@ -296,6 +278,8 @@ Landemore, H. (2013). Deliberation, cognitive diversity, and democratic inclusiv
 Lorenz, J. (2010). Heterogeneous bounds of confidence: Meet, discuss and find consensus! Complexity, 15(4), 43-52.
 
 Mellers, B.; Ungar, L.; Baron, J.; Ramos, J.; Gurcay, B.; Fincher, K.; Scott, S. E.; Moore, D.; Atanasov, P.; Swift, S. A.; Murray, T.; Stone, E.; Tetlock, P. E. (2014). Psychological Strategies for Winning a Geopolitical Forecasting Tournament. Psychological Science, 25(5), 1106-1115.
+
+Wang, X., Hyndman, R. J., Li, F., & Kang, Y. (2023). Forecast combinations: An over 50-year review. International Journal of Forecasting, 39(4), 1518–1547. https://doi.org/10.1016/j.ijforecast.2022.11.005
 
 ## Appendix A Model specification using ODD
 
@@ -545,7 +529,18 @@ In each draw, the five best records receive seats. The five lottery places are a
 | Lottery weight under record weights | 30.6% | 9.1% |
 | Paired difference [95% interval] | -0.064 [-0.103, -0.025] | +3.765 [-6.725, +14.255] |
 
-Sensitivity to outliers is material. At 2.5% capping per tail, the Experiment 1 score-minus-equal contrast remains negative. In Experiment 2 its sign changes, and uncapped squared losses are dominated by extreme submissions. Using the original 5% caps with absolute error yields differences of −0.048 [−0.074, −0.022] and +0.090 [−0.322, +0.502] respectively. With squared loss at the 5% caps, the median pool differences are −0.065 and −0.607. The largest positive Experiment 2 pool contrast is +77.119. Dropping it would move the group mean to −1.125. These diagnostics explain the instability of the mean without excluding that pool from the primary result.
+Table E2 places the paired comparisons on the same set of panels. The median difference across pools and the mean difference can have opposite signs. In Experiment 2 under the primary caps the largest pool-level increase in squared loss is 77.119. Omitting that pool changes the mean difference to −1.125. The primary estimates retain all 16 pools. The unrestricted median is much less sensitive to extreme individual reports because capping the tails preserves the central order statistics.
+
+*Table E2. Weight strength one minus equal weights on identical ten-person panels. Columns give mean squared-error difference, its 95% paired interval, median pool difference and mean absolute-error difference. Caps apply to each tail. Negative differences favor record weights. The unrestricted median’s squared loss is 0.339 in Experiment 1 and 4.738 in Experiment 2 at all three cap levels.*
+
+| Exp. | Tail cap | Mean ΔMSE | 95% interval | Median ΔMSE | Mean ΔMAE |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 5% | −0.064 | [−0.103, −0.025] | −0.065 | −0.048 |
+| 1 | 2.5% | −0.086 | [−0.131, −0.042] | −0.080 | −0.055 |
+| 1 | 0% | −6.08e+07 | [−1.90e+08, 6.88e+07] | −0.205 | −159.387 |
+| 2 | 5% | 3.765 | [−6.725, 14.255] | −0.607 | 0.090 |
+| 2 | 2.5% | −4.18e+05 | [−1.06e+06, 2.23e+05] | −0.668 | −58.192 |
+| 2 | 0% | −5.04e+13 | [−1.58e+14, 5.68e+13] | −6.07e+06 | −2.95e+05 |
 
 The source is pinned to revision 79d7658da169d9a943b0cbd221c38f47ffa7c11a of the authors’ wisdom-of-partisan-crowds repository. The analysis verifies the original CSV checksum before processing. Only aggregate fold summaries are redistributed. The seven-rule comparison and preprocessing sensitivities are exploratory.
 
@@ -571,3 +566,75 @@ Both actions initially have value zero for the neutral learner. After examining 
 Relative to the neutral learner, favoring copying initially increases the mixed council’s mean error by 0.0280 [0.0207, 0.0353] on paired fresh seeds. The neutral learner’s difference from private reporting is −0.0006 [−0.0018, 0.0006]. The two learners eventually copy much less frequently than a rule committed to copying. A simulation that hard-codes copying consequently answers a different incentive question from one that lets a reporter abandon it.
 
 For private reporters, I also compare the mixed and record-only councils on an attribute unavailable to the lottery. Each synthetic agent’s party is drawn independently at initialization. Party discrepancy is half the sum of the absolute differences between council and population party shares; smaller is closer. The mixed-minus-record difference is −0.0090 [−0.0266, +0.0085]. On strata used by the lottery the coverage gain is +12.36 [+11.66, +13.07] percentage points, with an error cost of 0.0516. Both intervals pair one run mean per fresh seed (29 degrees of freedom). The null attribute and the target strata measure different features of the same councils.
+
+## Appendix G Weight strength and shared errors
+
+The synthetic experiment uses the 30 archived worlds and 300 periods per world. It varies β over 0, ⅛, ¼, ½, 1, 2 and 4 at four correlations. For each world and correlation, reports are generated once, scored against the realized target and used to select a single sequence of panels. All β values therefore use the same members and confidence neighborhoods. The two aggregation variants use direct weighting or one round of local revision. In the latter, β multiplies the scores in both neighborhood weights and final weights in Eqs. (3)–(4). With β = 0, direct lottery weight is exactly 50%. With local revision, asymmetric neighborhoods can move the effective share away from 50% even at β = 0.
+
+Let sᵢₖ be the original observation standard deviation of person i on coordinate k, including any specialty reduction. Their noise at period t is sᵢₖ[√(1 − r) εᵢₖₜ + √r Zₖₜ], with independent standard-normal person-specific and common draws. All agents share the same Z on a coordinate within a period. Each marginal variance remains sᵢₖ². Two agents’ covariance on that coordinate is r sᵢₖ sⱼₖ. Distinct periods and coordinates use independent draws. The baseline r = 0 reuses the archived private reports exactly. For fixed direct coefficients a, the variance on that coordinate is (1 − r) Σᵢ aᵢ²sᵢₖ² + r(Σᵢ aᵢsᵢₖ)². This identity explains why spreading weight can fail to cancel a shared error. The realized local coefficients also depend on current reports, so their losses are measured directly.
+
+In the human reconstruction, the scoring scale, preprocessing, tied ranks and 512 matched draws in each question fold follow Appendix E. β changes only the final weights. Party discrepancy is half the sum of absolute deviations from population party shares. In the seat version each member counts one tenth. In the weighted version a party receives the sum of its members’ effective input weights. A human population here is the eligible pool for that draw. Its party label informs the lottery quota and so has a different role from the held-out synthetic party label. Error scales also differ: human records use squared IQR units averaged across training questions, while synthetic records use discounted sums over coordinates. A common numerical β indexes each scale separately.
+
+*Table G1. Design constraints, varied parameters and what each comparison identifies.*
+
+| Setting | Design choice | Interpretation |
+| --- | --- | --- |
+| Seat budget | 10 seats; 5 by record and 5 by lottery | Keeps membership fixed within a weight comparison. Full-pool rules remove the constraint. |
+| Score strength β | Seven values from 0 to 4 | Equal direct weights at zero. One recovers the archived rule. Positive values concentrate influence on better records. |
+| Common noise r | 0, 0.25, 0.50, 0.75 | Changes cross-agent error correlation while preserving conditional bias and individual marginal variance. |
+| Human records | Three training questions; one held out | Transfers relative past accuracy across four observed questions. Uses observed answers and all eligible pools. |
+| Preprocessing | Primary 5% caps; 2.5% and uncapped checks | Controls the leverage of extreme answers. The empirical IQR sets the error unit. |
+| Calibration | Specified grid; no fitting of β or r | Each point evaluates a declared design setting. The grid minimum is descriptive. |
+
+*Table G2. Effect of halving β from 1 to 0.5 in the synthetic council with local revision. Cells give within-seed mean changes and pointwise 95% paired Monte Carlo intervals (30 worlds). Lottery influence is in percentage points. Positive error change means that halving β is less accurate.*
+
+| Error correlation | Change in lottery influence | Change in squared error |
+| --- | --- | --- |
+| 0 | +7.65 [+7.06, +8.23] | −0.0014 [−0.0020, −0.0008] |
+| 0.25 | +7.68 [+7.12, +8.24] | +0.0288 [+0.0270, +0.0307] |
+| 0.5 | +7.70 [+7.13, +8.28] | +0.0598 [+0.0558, +0.0639] |
+| 0.75 | +7.61 [+7.02, +8.21] | +0.0905 [+0.0841, +0.0969] |
+
+All intervals treat a run or participant pool as the sampling unit. Each human pool averages its four holdouts and 512 draws per holdout before interval estimation. Tables E2 and G2 report pointwise paired t intervals, with no simultaneous coverage claim. The dataset also provides the mean, interval and median for each level and for comparisons with β = 0 and β = 1. Under the primary caps, the ten-person grid’s lowest observed mean error occurs at β = 2 in Experiment 1 and β = 0 in Experiment 2. Both grid comparisons reuse the evaluation questions.
+
+Run weight_strength.py simulation and weight_strength.py human from the repository root, followed by analyze_weight_strength.py. Supplying --input to the human command uses a local copy of the checksum-verified public CSV. The audit compares β = 1 at zero correlation against the earlier synthetic runs, and β = 0 and 1 against the published human endpoints. The run-level files permit independent recomputation of all figures and intervals.
+
+## Appendix H Elections feedback and fixed reporting rules
+
+### H1 Electoral information
+
+When voters see clean public records, shifting weight toward those records sharply reduces error relative to voting solely on other cues (Figure H1). The lowest mean among the five settings occurs before the record receives full weight. Noise in the record signal or contamination by campaign cues erodes much of the gain. The ordinary ballot retains utility noise even when voters place full nominal weight on records.
+
+![Figure](../results/preprint_2026/analysis/figure3_election.png)
+
+*Figure H1. Panel A varies the public-record weight with clean signals. Panels B and C set the nominal record weight to 0.75 and vary record noise and campaign contamination, respectively. Positive gaps indicate higher ballot error relative to PKD. Each point uses the same 30 seeds.*
+
+The matched test uses five seats, six-period terms and equal final weights in both procedures. All voters see identical rankings, place all weight on the record and face no utility noise. After the first council rotates, the estimates from ballots and direct ranking agree to numerical precision across the 30 runs. A shared ranking can implement the same selection through either procedure.
+
+### H2 Feedback and fixed reporting rules
+
+A noisy indicator makes records less informative about accuracy relative to the true state. Restricting scoring to fewer coordinates has two effects: it changes the information available to rank members and changes the size of losses passed into exponential weights. Figure H2 shows the resulting joint response.
+
+Feedback delay also raises full-run error, mainly because all records start at zero. The longest delay extends the time that a council must select and weight members without scored observations. Later-window paired intervals span zero for each tested delay (Figure C1). Separating startup from later terms changes the interpretation of the full-run average.
+
+![Figure](../results/preprint_2026/analysis/figure4_scoring.png)
+
+*Figure H2. Shared scoring-channel interventions. Points average all 300 periods, including initialization. Delay affects individual records while incumbent feedback remains immediate. Restricting the number of scored coordinates also changes the scale of the summed loss.*
+
+The strategy tests give the high-appeal biased agents fixed reporting options. In the herding conditions, agents outside the previous PKD council copy its last estimate with individual or shared noise. Previously seated agents report their private estimates. Two other conditions allow copying of the current or previous scoring indicator. Every comparator receives the same modified submissions.
+
+Herding raises both the group’s occupancy and the council’s error. Copying the current indicator produces a different pattern (Figure H3). An exact indicator rewards a report that also tracks the state perfectly. A noisy indicator rewards a copy just as highly even though the report now transmits shared measurement error. Occupancy alone cannot distinguish these outcomes.
+
+![Figure](../results/preprint_2026/analysis/figure5_gaming.png)
+
+*Figure H3. Estimation error and high-appeal biased agents’ share of council seats under fixed reporting rules. Current-indicator access exposes the scoring target before registration. Lagged access exposes only the previous indicator. Noise is the indicator’s per-coordinate standard deviation.*
+
+Access timing explains the divergence. A copy of the current scoring target earns zero scored loss whatever its distance from the true state. Requiring the previous indicator instead substantially reduces error in the noisy cases. Even a lagged exact indicator can help a copier gain seats in a persistent world while carrying an out-of-date estimate into the aggregate (Figure H3).
+
+### H3 Shock controls and sensitivity
+
+The paired no-shock control shows that increasing bias and appeal raises error most strongly for appeal ranking among the councils shown in Figure B1. The mixed council shows a small positive effect. Its two entry routes and its final weights give appeal no direct role, whereas appeal ranking selects on the trait changed by the intervention.
+
+Raising the observation noise of the initially low-noise group increases hybrid error. Expanding the high-appeal biased group also increases its seat share, showing why group occupancy and estimation error must be reported separately. Changing the target’s redraw frequency leaves baseline errors unchanged, as the cancellation in Section 3.3 predicts (Table B2).
+
+When low-noise agents become less precise, combining indicator noise with delayed records gives the largest hybrid error among the four jointly varied settings (Table B2). The citizen-variance check poses a different question. Equalizing variance across the four citizen groups raises hybrid error, while the uniform random council and the population mean change little. The mixed council retains its advantage over the random council, and pooling every submission with score weights retains its accuracy advantage over the mixed council (Table D1).

@@ -1,3 +1,9 @@
+# Version 3.6.0 — 22 November 2026
+
+- Compared seven weight strengths on identical ten-person panels across four simulation error correlations and in both human experiments. Published paired run or pool summaries, archived endpoint checks and Figure 4.
+- Measured party composition both by seats and by the effective contributions of the same members. Distinguished a directional mathematical guarantee at selection from empirical changes in loss and influence.
+- Refocused the main paper on size-limited panels, brought unrestricted benchmarks forward, consolidated human outlier sensitivities in Table E2 and moved secondary election, feedback and strategy checks to Appendix H.
+
 # Version 3.5.0 — 22 November 2026
 
 - Published a revised preprint in Word, PDF and Markdown with the accuracy–coverage–influence comparisons in the main text.

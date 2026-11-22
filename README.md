@@ -6,6 +6,12 @@ This repository accompanies *Accuracy and influence in councils selected by trac
 
 ## What changes when a seat is reserved for the lottery?
 
+With ten members held fixed, the new experiment crosses seven strengths of score weighting with four correlations in simulation errors. Under independent errors, halving the baseline strength raises the lottery input share from 13.3% to 20.9% and slightly lowers error. Under a shared information source the same change raises error. Human panels show how concentrated influence becomes when a record contains only three previous answers. Each human comparison evaluates a held-out question using records from the other three.
+
+![Weight strength, estimation error and party representation](results/weight_strength/weight_strength.png)
+
+[New paired estimates and run-level data](results/weight_strength) · [Reproduction and definitions](REPRODUCIBILITY.md)
+
 In the ten-seat simulation, five lottery members carry 13.3% of the input weight. The fixed-membership comparison shows what weighting contributes over and above who gets in. In the two human experiments, the five lottery seats carry 30.6% and 9.1% of the weight. Record weighting lowered average error in the first experiment. In the second, a large miss in one participant pool changed the sign of the mean comparison. Each experiment has four held-out questions and 16 participant pools. The original study and its replication data are available from [Becker, Porter & Centola (2019)](https://doi.org/10.1073/pnas.1817195116) and [Harvard Dataverse](https://doi.org/10.7910/DVN/OE6UMR).
 
 ![Paired error differences by participant pool](results/november_2026/empirical_contrasts.png)
@@ -18,6 +24,10 @@ Use Python 3.12 and install the repository dependencies with `python -m pip inst
 
 ```bash
 python -m pytest -q
+python weight_strength.py simulation --workers 4 --output rerun/strength
+python weight_strength.py human --output rerun/strength
+python analyze_weight_strength.py --directory rerun/strength
+python analyze_weight_strength.py --check
 python verify_november.py
 python citizen_variance.py --workers 4 --output rerun/citizen_noise_runs.csv
 python adaptive_panels.py --workers 4 --output rerun/adaptive_runs.csv
